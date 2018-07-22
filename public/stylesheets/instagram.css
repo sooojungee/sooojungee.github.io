@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  minx-width: 960px; }
+
+.flex {
+  flex: 1; }
+
+.content {
+  width: 960px;
+  height: 100%;
+  margin: 0 auto; }
+
+.header {
+  width: 100%;
+  height: 280px;
+  position: fixed;
+  background: white;
+  box-shadow: 0px 2px 2px #ccc;
+  z-index: 1; }
+  .header .header-main {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #cccccc; }
+    .header .header-main .content {
+      display: flex; }
+      .header .header-main .content .main {
+        width: 200px;
+        display: flex; }
+        .header .header-main .content .main:hover {
+          cursor: pointer;
+          opacity: 0.6; }
+        .header .header-main .content .main i.fab.fa-instagram {
+          position: relative;
+          width: 30px;
+          height: 40px;
+          font-size: 25px;
+          line-height: 40px; }
+        .header .header-main .content .main .border-right {
+          width: 10px;
+          height: 100%;
+          font-size: 20px;
+          line-height: 40px;
+          text-align: center;
+          color: #ccc; }
+        .header .header-main .content .main .instagram {
+          width: 120px;
+          height: 32px;
+          margin: 4px;
+          background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpekdVQiwy_jPy6yuZDvt1myUlrV8qt8rMuvp0xqicPQH3_LHT") no-repeat;
+          background-size: contain; }
+      .header .header-main .content .search {
+        width: 400px; }
+        .header .header-main .content .search .search-bar {
+          width: 350px;
+          height: 25px;
+          margin: 8px;
+          display: flex;
+          position: relative; }
+          .header .header-main .content .search .search-bar i.fa.fa-search {
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;
+            margin: 0 10px;
+            color: #cccccc; }
+          .header .header-main .content .search .search-bar input {
+            width: 400px;
+            height: 25px;
+            font-size: 12px;
+            line-height: 25px;
+            color: #cccccc;
+            padding: 0 50px;
+            border: 1px solid #cccccc;
+            border-radius: 5px; }
+      .header .header-main .content .icons {
+        width: 120px; }
+        .header .header-main .content .icons .icon {
+          width: 40px;
+          height: 40px;
+          font-size: 18px;
+          color: #333333;
+          line-height: 40px;
+          text-align: center; }
+          .header .header-main .content .icons .icon:hover {
+            cursor: pointer;
+            font-weight: bold; }
+  .header .header-content {
+    width: 100%;
+    height: 200px; }
+    .header .header-content .content {
+      display: flex; }
+      .header .header-content .content .photo {
+        width: 200px;
+        height: 100%; }
+        .header .header-content .content .photo .photo-self {
+          width: 120px;
+          height: 120px;
+          border: 0px solid;
+          border-radius: 50%;
+          margin: 40px;
+          background: url("https://scontent-icn1-1.cdninstagram.com/vp/a651436ee057e61953870a7ecad87fd9/5BB84685/t51.2885-19/s320x320/32621581_106360013581941_6008430067649085440_n.jpg") no-repeat;
+          background-size: contain; }
+      .header .header-content .content .content-session {
+        width: 600px;
+        height: 160px;
+        margin: 30px 0 10px 0; }
+        .header .header-content .content .content-session .name-tag {
+          width: auto;
+          height: 30px;
+          display: flex; }
+          .header .header-content .content .content-session .name-tag .name {
+            width: 85px;
+            height: 100%;
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 600; }
+          .header .header-content .content .content-session .name-tag i {
+            width: 30px;
+            height: 100%;
+            font-size: 15px;
+            line-height: 30px; }
+          .header .header-content .content .content-session .name-tag .follow {
+            width: 60px;
+            height: 26px;
+            margin: 2px;
+            font-size: 13px;
+            border: 1.5px solid #00B7FF;
+            line-height: 26px;
+            text-align: center;
+            border-radius: 5px;
+            color: #00B7FF; }
+            .header .header-content .content .content-session .name-tag .follow:hover {
+              cursor: pointer;
+              background: #00B7FF;
+              color: white; }
+        .header .header-content .content .content-session .introduce-session {
+          width: 500px;
+          height: 60px; }
+          .header .header-content .content .content-session .introduce-session .self-introduce {
+            margin: 10px 0;
+            height: 40px;
+            font-size: 15px;
+            color: #ccc; }
+        .header .header-content .content .content-session .number {
+          width: 100%;
+          height: 55px;
+          display: flex; }
+          .header .header-content .content .content-session .number .num-session {
+            margin: 0 20px 0 0;
+            width: 90px;
+            height: 70px; }
+            .header .header-content .content .content-session .number .num-session:hover {
+              cursor: pointer; }
+              .header .header-content .content .content-session .number .num-session:hover .title {
+                text-decoration: underline; }
+            .header .header-content .content .content-session .number .num-session .count {
+              width: 100%;
+              height: 30px;
+              font-size: 28px;
+              font-weight: 600; }
+            .header .header-content .content .content-session .number .num-session .title {
+              width: 100%;
+              height: 10px;
+              font-size: 15px; }
+  .header .header-icons {
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid #ccc; }
+    .header .header-icons .content {
+      display: flex; }
+      .header .header-icons .content .empty {
+        width: 180px;
+        height: 100%; }
+      .header .header-icons .content .icon {
+        width: 20px;
+        height: 20px;
+        font-size: 18px;
+        margin: 10px 25px;
+        color: #555555; }
+        .header .header-icons .content .icon:hover {
+          cursor: pointer;
+          color: #00B7FF; }
+
+.empty {
+  width: 100%;
+  height: 280px; }
+
+.view {
+  width: 100%;
+  height: calc(100% - 280px);
+  background: #dedede;
+  overflow: scroll; }
+  .view .card-view {
+    width: 990px;
+    height: 100%;
+    margin: 0 auto; }
+    .view .card-view .card {
+      display: inline-block;
+      width: 325px;
+      height: 325px;
+      padding: 15px;
+      background: url("https://scontent-icn1-1.cdninstagram.com/vp/f3322f6fbb61984f306a4b7688efbec6/5BA59A95/t51.2885-15/e35/27581481_329147314255290_5394871990592995328_n.jpg") no-repeat;
+      background-size: contain;
+      background-clip: content-box; }
+      .view .card-view .card:hover {
+        cursor: pointer;
+        opacity: 0.8; }
+
+/*# sourceMappingURL=example.css.map */

@@ -1,0 +1,381 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex; }
+
+.content {
+  width: 940px;
+  height: 100%;
+  margin: auto; }
+
+.flex {
+  flex: 1; }
+
+.big {
+  width: 900px; }
+  @media screen and (max-width: 900px) {
+    .big {
+      width: 700px; } }
+  @media screen and (max-width: 600px) {
+    .big {
+      width: 400px; } }
+
+.menu-field {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 50px;
+  height: 100%;
+  background: #262f3d;
+  transition: width 0.3s; }
+  .menu-field .menu-sub {
+    width: 220px;
+    height: 50px;
+    display: flex; }
+    .menu-field .menu-sub i.fab {
+      width: 30px;
+      height: 30px;
+      font-size: 30px;
+      margin: 10px;
+      color: orange;
+      line-height: 30px; }
+    .menu-field .menu-sub .text {
+      margin: 10px;
+      height: 30px;
+      line-height: 30px;
+      font-size: 20px;
+      color: white; }
+    .menu-field .menu-sub i.fas.fa-home {
+      height: 30px;
+      width: 30px;
+      margin: 10px;
+      font-size: 18px;
+      color: #55c3f5;
+      text-align: center;
+      line-height: 30px; }
+    .menu-field .menu-sub .overview {
+      color: #55c3f5;
+      font-size: 14px;
+      width: 105px;
+      height: 30px;
+      margin: 10px;
+      line-height: 30px; }
+    .menu-field .menu-sub .bar {
+      width: 5px;
+      height: 30px;
+      margin: 10px 5px;
+      line-height: 30px;
+      font-size: 20px;
+      color: #cccccc; }
+    .menu-field .menu-sub i.fas.fa-cog {
+      width: 20px;
+      margin: 10px 5px;
+      height: 30px;
+      line-height: 30px;
+      color: white; }
+  .menu-field .scroll-content {
+    width: 100%;
+    height: calc(100% - 200px);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scrollbar-base-color: #1b9de2; }
+    .menu-field .scroll-content::-webkit-scrollbar {
+      width: 8px; }
+    .menu-field .scroll-content::-webkit-scrollbar-track {
+      background: #555;
+      border-radius: 10px; }
+    .menu-field .scroll-content::-webkit-scrollbar-thumb {
+      background: #8b9bb1;
+      border: 1.5px solid #555;
+      border-radius: 10px; }
+    .menu-field .scroll-content .menu-content {
+      width: 220px;
+      height: 600px;
+      background: #19222a; }
+      .menu-field .scroll-content .menu-content .bar {
+        width: 100%;
+        height: 1px;
+        background: #ccc; }
+      .menu-field .scroll-content .menu-content .title {
+        height: 40px;
+        width: 100%;
+        color: white;
+        font-size: 16px;
+        line-height: 40px;
+        margin: 0 60px; }
+      .menu-field .scroll-content .menu-content .content {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        color: white; }
+        .menu-field .scroll-content .menu-content .content i {
+          width: 30px;
+          height: 20px;
+          margin: 10px;
+          font-size: 15px;
+          line-height: 20px;
+          text-align: center; }
+        .menu-field .scroll-content .menu-content .content .sub {
+          width: 100px;
+          height: 20px;
+          margin: 10px;
+          font-size: 14px;
+          line-height: 20px; }
+    .menu-field .scroll-content:hover {
+      overflow-y: scroll; }
+  .menu-field .menu-sub {
+    width: 220px;
+    height: 50px;
+    border-top: 0.5px solid gray;
+    border-bottom: 0.5px solid gray; }
+  .menu-field:hover {
+    cursor: pointer;
+    width: 220px; }
+
+.main-field {
+  flex: 1;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden; }
+  .main-field .main-notice {
+    width: 100%;
+    height: 50px;
+    background: #1b9de2;
+    display: flex;
+    color: white;
+    font-weight: 200; }
+    .main-field .main-notice .notice {
+      display: inline-block;
+      font-size: 8px;
+      height: 12px;
+      margin: 19px 0px 19px 20px; }
+    .main-field .main-notice i.fas.fa-caret-down {
+      width: 6px;
+      font-size: 12px;
+      height: 12px;
+      margin: 19px 0; }
+    .main-field .main-notice .text {
+      width: 60px;
+      height: 50px;
+      font-size: 13px;
+      line-height: 50px; }
+    .main-field .main-notice i.fas.fa-bell {
+      width: 50px;
+      height: 100%;
+      text-align: center;
+      line-height: 50px; }
+    .main-field .main-notice i.far.fa-user-circle {
+      width: 40px;
+      height: 50px;
+      font-size: 25px;
+      line-height: 50px; }
+  .main-field .main-header {
+    width: 100%;
+    height: 50px;
+    background: #1b9de2;
+    display: flex; }
+    .main-field .main-header .header {
+      width: 100px;
+      height: 50px;
+      line-height: 50px;
+      color: white;
+      font-size: 18px;
+      font-weight: 300;
+      margin: 0 20px; }
+    .main-field .main-header i {
+      width: 25px;
+      height: 30px;
+      margin: 10px;
+      line-height: 30px;
+      font-size: 20px;
+      color: white; }
+  .main-field .main-sub {
+    width: 100%;
+    height: 40px;
+    background: #fafafa;
+    display: flex; }
+    .main-field .main-sub .flex-content {
+      width: 30px;
+      height: 40px; }
+      .main-field .main-sub .flex-content i {
+        width: 25px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+        color: #555; }
+    .main-field .main-sub .content .message {
+      width: 600px;
+      height: 40px;
+      line-height: 40px;
+      margin: auto;
+      display: flex; }
+      .main-field .main-sub .content .message i {
+        width: 30px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+        color: #1b9de2; }
+      .main-field .main-sub .content .message .text {
+        width: 480px;
+        height: 40px;
+        font-size: 14px;
+        color: #666;
+        font-weight: 600;
+        text-align: center; }
+      .main-field .main-sub .content .message .join {
+        width: 90px;
+        height: 40px;
+        line-height: 40px;
+        color: #1b9de2;
+        font-size: 14px;
+        font-weight: 600; }
+  .main-field .main-content-1 {
+    width: 100%;
+    height: 340px;
+    background: #eff1f0; }
+    .main-field .main-content-1 .content .title {
+      width: 100%;
+      height: 40px;
+      display: flex; }
+      .main-field .main-content-1 .content .title .message-content {
+        width: 100px;
+        height: 40px;
+        font-size: 15px;
+        line-height: 40px;
+        margin: 0 10px;
+        color: #5c5c5c; }
+      .main-field .main-content-1 .content .title .add-content {
+        display: inline-block;
+        height: 40px;
+        line-height: 40px;
+        font-size: 15px;
+        font-weight: 600;
+        color: #00B7FF;
+        margin: 0 10px; }
+    .main-field .main-content-1 .content .content-box {
+      width: 100%;
+      height: 280px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0px 2px 2px #ccc; }
+      .main-field .main-content-1 .content .content-box .box-title {
+        width: 100%;
+        height: 60px;
+        border-bottom: 1px solid #ccc;
+        display: flex; }
+        .main-field .main-content-1 .content .content-box .box-title i {
+          width: 40px;
+          height: 40px;
+          margin: 10px;
+          border: 1px solid #cccccc;
+          border-radius: 50%;
+          font-size: 30px;
+          color: #55c3f5;
+          text-align: center;
+          line-height: 40px; }
+        .main-field .main-content-1 .content .content-box .box-title .title-content {
+          width: 210px;
+          height: 60px; }
+          .main-field .main-content-1 .content .content-box .box-title .title-content .title-1 {
+            width: 100px;
+            height: 25px;
+            margin: 2.5px;
+            font-size: 18px;
+            line-height: 25px;
+            font-weight: 600;
+            color: black; }
+          .main-field .main-content-1 .content .content-box .box-title .title-content .title-2 {
+            width: 200px;
+            height: 25px;
+            margin: 2.5px;
+            font-size: 14px;
+            line-height: 25px;
+            color: #ccc; }
+      .main-field .main-content-1 .content .content-box .box-content {
+        width: 100%;
+        height: 220px;
+        display: flex; }
+        .main-field .main-content-1 .content .content-box .box-content .content-sub {
+          flex: 1;
+          height: 100%;
+          display: flex; }
+          .main-field .main-content-1 .content .content-box .box-content .content-sub .box {
+            width: 190px;
+            height: 140px;
+            margin: 20px; }
+            .main-field .main-content-1 .content .content-box .box-content .content-sub .box .text {
+              width: 190px;
+              height: 20px;
+              font-size: 13px;
+              color: #555;
+              line-height: 20px; }
+            .main-field .main-content-1 .content .content-box .box-content .content-sub .box .number {
+              width: 180px;
+              height: 40px;
+              margin: 10px;
+              display: flex; }
+              .main-field .main-content-1 .content .content-box .box-content .content-sub .box .number .count {
+                width: 60px;
+                height: 40px;
+                font-size: 30px;
+                font-weight: 600; }
+              .main-field .main-content-1 .content .content-box .box-content .content-sub .box .number .percentage {
+                width: 40px;
+                height: 20px;
+                font-size: 12px;
+                margin: 14px 0 0 0; }
+              .main-field .main-content-1 .content .content-box .box-content .content-sub .box .number .minus {
+                color: red; }
+              .main-field .main-content-1 .content .content-box .box-content .content-sub .box .number .plus {
+                color: blue; }
+            .main-field .main-content-1 .content .content-box .box-content .content-sub .box i {
+              width: 100px;
+              margin: 0 20px;
+              height: 50px;
+              font-size: 50px;
+              color: #1b9de2; }
+        .main-field .main-content-1 .content .content-box .box-content .border-right {
+          border-right: 1px solid #ccc; }
+  .main-field .main-content-2 {
+    width: 100%;
+    height: 500px;
+    background: #d0d8dc; }
+    .main-field .main-content-2 .big .card-title {
+      width: 100%;
+      height: 80px;
+      color: #444;
+      line-height: 80px;
+      font-size: 20px;
+      margin: 0px 10px; }
+    .main-field .main-content-2 .big .card {
+      display: inline-block;
+      width: 280px;
+      height: 280px;
+      margin: 10px;
+      background: white;
+      background-clip: content-box;
+      box-shadow: 0px 2px 2px #ccc; }
+      .main-field .main-content-2 .big .card .card-photo {
+        width: 100%;
+        height: 120px;
+        background: pink; }
+      .main-field .main-content-2 .big .card .card-title {
+        width: 200px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 20px;
+        margin: 10px;
+        font-weight: 600;
+        color: #777; }
+      .main-field .main-content-2 .big .card .card-content {
+        width: 100%;
+        height: 50px;
+        padding: 10px;
+        color: #888;
+        font-size: 13px; }
+
+/*# sourceMappingURL=test0608.css.map */

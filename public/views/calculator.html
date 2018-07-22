@@ -1,0 +1,49 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../stylesheets/calculator.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+</head>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+<body>
+<div class="main">
+  <div class="content-table">
+    <div class="content-table-cell">
+      <div class="calculator">
+        <div class="header">
+          <div class="header-button red"><i class="material-icons">close</i></div>
+          <div class="header-button yellow"><i class="material-icons mini">minimize</i></div>
+          <div class="header-button green"><i class="material-icons">add</i></div>
+        </div>
+        <div class="answer">0</div>
+        <div class="buttons">
+          <div class="button background" id="return">AC</div>
+          <div class="button background" id="plusminus">+/-</div>
+          <div class="button background" id="percentage">%</div>
+          <div class="button sign calc" command="/"><i class="fas fa-divide"></i></div>
+          <div class="button background num">7</div>
+          <div class="button background num">8</div>
+          <div class="button background num">9</div>
+          <div class="button sign calc" command="*"><i class="fas fa-times"></i></div>
+          <div class="button background num">4</div>
+          <div class="button background num">5</div>
+          <div class="button background num">6</div>
+          <div class="button sign calc" command="-"><i class="fas fa-minus"></i></div>
+          <div class="button background num">1</div>
+          <div class="button background num">2</div>
+          <div class="button background num">3</div>
+          <div class="button sign calc" command="+"><i class="fas fa-plus"></i></div>
+          <div class="button background button-twice num border-left-bottom">0</div>
+          <div class="button background dot">.</div>
+          <div class="button sign result border-right-bottom"><i class="fas fa-equals"></i></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="../javascripts/calculator.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+<html>
+
+<head>
+  <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.min.js"></script>
+  <!--<script src="/jquery/dist/jquery.min.js"></script>-->
+  <link rel="stylesheet" href="../stylesheets/textFinder.css"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div class="section">
+  <div class="button-sector-opener">
+    <div class="i material-icons">chevron_right</div>
+  </div>
+  <div class="left-sector">
+    <div class="nav"></div>
+    <div class="command-zone">
+      <div class="separator">Highlight Option</div>
+      <div class="check-group">
+        <div class="check-button component" selected="selected">
+          <div class="check icon">
+            <div class="outer"></div>
+            <div class="i material-icons">check</div>
+          </div>
+          <div class="text">background</div>
+        </div>
+        <div class="check-button component" selected="selected">
+          <div class="check icon">
+            <div class="outer"></div>
+            <div class="i material-icons">check</div>
+          </div>
+          <div class="text">underline</div>
+        </div>
+        <div class="check-button component" selected="selected">
+          <div class="check icon">
+            <div class="outer"></div>
+            <div class="i material-icons">check</div>
+          </div>
+          <div class="text">italic</div>
+        </div>
+        <div class="check-button component">
+          <div class="check icon">
+            <div class="outer"></div>
+            <div class="i material-icons">check</div>
+          </div>
+          <div class="text">bold</div>
+        </div>
+      </div>
+      <div class="separator">Search Option</div>
+      <div class="radio-group">
+        <div class="radio-button component">
+          <div class="radio icon">
+            <div class="outer-circle"></div>
+            <div class="inner-circle"></div>
+          </div>
+          <div class="text">Letter</div>
+        </div>
+        <div class="radio-button component">
+          <div class="radio icon">
+            <div class="outer-circle"></div>
+            <div class="inner-circle"></div>
+          </div>
+          <div class="text">Word</div>
+        </div>
+        <div class="radio-button component" selected="selected">
+          <div class="radio icon">
+            <div class="outer-circle"></div>
+            <div class="inner-circle"></div>
+          </div>
+          <div class="text">Sentence</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="right-sector">
+    <div class="nav"><input/></div>
+    <div class="text-zone">asdfasdf</div>
+    <div class="result-zone"></div>
+  </div>
+</div>
+<script src="../javascripts/component.js"></script>
+<script src="../javascripts/textFinder.js"></script>
+</body>
+
+</html>
