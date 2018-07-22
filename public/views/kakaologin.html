@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head><title>로그인</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../stylesheets/kakaolayout.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"><!--라이브러리는 위에있어야 함~ 위에서 아래로 코드가 읽히니까--></script>
+  <!--script(src="/javascripts/test.js")-->
+  <link rel="stylesheet" href="../stylesheets/kakaomain.css">
+</head>
+<body>
+<div class="main">
+  <div class="content-table">
+    <div class="content-table-cell">
+      <div class="content">
+        <div class="main-content">
+          <div class="header">
+            <div class="flex"></div>
+            <i class="fas fa-align-left"></i>
+            <div class="bar"></div>
+            <i class="fas fa-window-minimize"></i><i class="fas fa-times"></i></div>
+          <div class="contents">
+            <div class="kakao-image"></div>
+            <div class="input">
+              <div class="email"><input placeholder="카카오 계정(이메일)" id="inputId"><i class="fas fa-sort-down"></i></div>
+              <div class="password"><input placeholder="비밀번호" id="inputPassword"></div>
+            </div>
+            <div class="login" id="loginText">로그인</div>
+            <div class="check-login">
+              <div class="check"><i class="fas fa-check"></i></div>
+              <div class="keep-login">잠금모드로 자동로그인</div>
+            </div>
+            <div class="bar"></div>
+            <div class="text">모바일에서 카카오계정을 확인할 수 있습니다.</div>
+            <div class="text underbar">카카오계정안내</div>
+            <div class="find-password">비밀번호를 잊어버리셨나요?</div>
+          </div>
+        </div>
+        <script src="../javascripts/kakao-login.js"></script>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

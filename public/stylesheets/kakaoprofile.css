@@ -1,0 +1,153 @@
+i:hover {
+  cursor: pointer; }
+
+.profile {
+  position: relative;
+  width: 100%;
+  height: 100%; }
+  .profile .background {
+    position: absolute;
+    width: 100%;
+    height: 100%; }
+    .profile .background .image {
+      width: 100%;
+      height: 480px;
+      background-image: url("https://cdn.shopify.com/s/files/1/1011/6998/products/TP_2000_B54-600x364_1024x1024.jpg?v=1463565019");
+      background-size: contain;
+      position: relative; }
+      .profile .background .image .i-items {
+        width: 100%;
+        height: 25px;
+        position: absolute;
+        padding: 0 7px;
+        margin: 7px 0;
+        bottom: 0;
+        display: flex; }
+        .profile .background .image .i-items i {
+          color: white;
+          width: 25px;
+          height: 25px;
+          margin: 0 5px;
+          text-align: center;
+          line-height: 23px;
+          font-size: 18px;
+          border: 1px solid white;
+          border-radius: 50%; }
+          .profile .background .image .i-items i:hover {
+            cursor: pointer;
+            background: #ccc;
+            color: white; }
+        .profile .background .image .i-items .money {
+          padding: 0 0 0 1px; }
+    .profile .background .empty-space {
+      width: 100%;
+      height: calc(100% - 480px);
+      background: white; }
+  .profile .items {
+    position: absolute;
+    width: 100%;
+    height: 100%; }
+    .profile .items .top {
+      width: 100%;
+      height: 60px;
+      display: flex; }
+      .profile .items .top .close {
+        width: 60px;
+        height: 30px;
+        margin: 15px 5px; }
+        .profile .items .top .close i {
+          width: 40px;
+          height: 20px;
+          color: white;
+          font-size: 18px;
+          text-align: center;
+          line-height: 20px; }
+      .profile .items .top .images-background {
+        width: 32px;
+        height: 34px;
+        margin: 15px;
+        background: white;
+        border: 1px solid #999;
+        box-shadow: 2px 0px 1px white; }
+        .profile .items .top .images-background .images {
+          width: 26px;
+          height: 26px;
+          background-image: url("https://i.ytimg.com/vi/nZnFi23PCXA/maxresdefault.jpg");
+          background-size: contain;
+          margin: 2px; }
+    .profile .items .empty-space {
+      width: 100%;
+      height: calc(100% - 360px); }
+    .profile .items .profile-session {
+      width: 140px;
+      height: 170px;
+      margin: 0 auto; }
+      .profile .items .profile-session .image {
+        width: 90px;
+        height: 90px;
+        border: 0px solid;
+        border-radius: 50%;
+        margin: 20px 25px 10px 25px;
+        background-image: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fpost.phinf.naver.net%2FMjAxODA2MDRfMjY0%2FMDAxNTI4MDczNzIyMTA3.ELTDw68Qpw3Fx8u9IdtgLjO0_eoZbsoEeJ3QiLjvnA4g.VtS5yDJiRMyLmUv8FnntoiH1G5qu870OtTtr4_HOOkAg.PNG%2FIsOgyeFxyEwc05cdAMW6AKGTwexQ.jpg&type=b400");
+        background-size: cover; }
+      .profile .items .profile-session .name-tag {
+        width: 80px;
+        margin: 0 auto;
+        height: 20px;
+        display: flex; }
+        .profile .items .profile-session .name-tag .name {
+          width: 60px;
+          height: 20px;
+          font-size: 15px;
+          text-align: center;
+          line-height: 20px; }
+        .profile .items .profile-session .name-tag i {
+          width: 20px;
+          height: 20px;
+          color: #ccc;
+          font-size: 12px;
+          text-align: center;
+          line-height: 20px; }
+      .profile .items .profile-session .phone {
+        width: 85px;
+        height: 20px;
+        margin: 15px auto;
+        border: 0.5px solid #eee;
+        color: #ccc;
+        font-size: 11px;
+        text-align: center;
+        line-height: 20px; }
+        .profile .items .profile-session .phone:hover {
+          cursor: pointer;
+          background: rgba(0, 0, 0, 0.1);
+          color: white; }
+    .profile .items .other-session {
+      width: 100%;
+      height: 110px;
+      display: flex;
+      color: black; }
+      .profile .items .other-session .icons {
+        width: 70px;
+        height: 90px;
+        margin: 10px; }
+        .profile .items .other-session .icons i {
+          width: 48px;
+          height: 48px;
+          margin: 10px 11px;
+          border: 0px solid;
+          border-radius: 50%;
+          background: #eee;
+          font-size: 18px;
+          color: #544b4b;
+          text-align: center;
+          line-height: 48px; }
+        .profile .items .other-session .icons .text {
+          width: 100%;
+          height: 20px;
+          font-size: 11px;
+          text-align: center;
+          line-height: 20px; }
+        .profile .items .other-session .icons:hover {
+          color: black; }
+
+/*# sourceMappingURL=kakaoprofile.css.map */

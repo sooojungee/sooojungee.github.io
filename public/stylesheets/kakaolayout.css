@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 400px;
+  overflow: hidden; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+
+.flex {
+  flex: 1; }
+
+.content {
+  overflow: hidden;
+  width: 400px;
+  height: 680px;
+  margin: auto; }
+
+.contents {
+  width: 280px;
+  height: 100%;
+  margin: auto; }
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  background: #ccc; }
+  .main .content-table {
+    margin: auto;
+    width: 400px;
+    height: 100%;
+    display: table; }
+    .main .content-table .content-table-cell {
+      display: table-cell;
+      vertical-align: middle;
+      width: 400px;
+      height: 680px; }
+
+/*# sourceMappingURL=kakaolayout.css.map */

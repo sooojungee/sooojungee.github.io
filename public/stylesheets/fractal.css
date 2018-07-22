@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+#renderer {
+  width: 100vw;
+  height: 100vh;
+  background: #333; }
+
+.click {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid #ccc; }
+
+.ui {
+  position: fixed;
+  width: 200px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 16px;
+  top: 8px;
+  left: 8px; }
+  .ui .input-text {
+    color: #cccccc;
+    font-size: 15px;
+    padding-top: 8px; }
+  .ui input {
+    width: 100%; }
+  .ui .button {
+    margin-top: 12px;
+    background: rgba(255, 255, 255, 0.2);
+    height: 24px;
+    color: #fff;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer; }
+    .ui .button:active {
+      background: rgba(255, 255, 255, 0.1); }
+
+/*# sourceMappingURL=fractal.css.map */

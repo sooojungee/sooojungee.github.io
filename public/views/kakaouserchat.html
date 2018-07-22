@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head><title>test</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../stylesheets/kakaolayout.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"><!--라이브러리는 위에있어야 함~ 위에서 아래로 코드가 읽히니까--></script>
+  <!--script(src="/javascripts/test.js")-->
+  <link rel="stylesheet" href="../stylesheets/kakao-test.css">
+</head>
+<body>
+<div class="main">
+  <div class="content-table">
+    <div class="content-table-cell">
+      <div class="content">
+        <div class="chatting-room">
+          <div class="ui-bar"><a href="https://sooojungee.github.io/public/views/kakaochat.html" title="chat"><i class="material-icons">arrow_back</i></a>
+            <div class="text">홍주원</div>
+            <div class="flex"></div>
+            <i class="material-icons">search</i><i class="material-icons">dehaze</i></div>
+          <div class="chatting">
+            <div class="chat-group">
+              <div class="chat">
+                <div class="profile">
+                  <div class="profile-image"></div>
+                </div>
+                <div class="text-group">
+                  <div class="name">손님</div>
+                  <div class="message-group">
+                    <div class="text">안녕하세요</div>
+                    <div class="date">오후 12:24</div>
+                    <div class="empty"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="chat-group sender">
+              <div class="chat"><!--.profile--><!--  .profile-image-->
+                <div class="text-group">
+                  <div class="name"></div>
+                  <div class="message-group">
+                    <div class="text">ㅎㅎㅎ</div>
+                    <div class="date">오후 12: 34</div>
+                    <div class="delete">x</div>
+                    <div class="empty"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="input-bar"><i class="material-icons">add_box</i><textarea class="messageInput"></textarea><i
+                  class="material-icons" id="sender">tag_faces</i><i class="material-icons">attach_file</i></div>
+          <div class="modal sendMessage">
+            <div class="modal-content">
+              <div class="content-group">
+                <div class="header">메세지가 지워집니다</div>
+                <div class="text">진짜?</div>
+              </div>
+              <div class="button-group">
+                <div class="flex"></div>
+                <div class="button negative">CANCEL</div>
+                <div class="button positive">DELETE</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+        <script src="../javascripts/firebase.js"></script>
+        <script src="../javascripts/kakao-text1.js"></script>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

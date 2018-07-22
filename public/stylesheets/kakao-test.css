@@ -1,0 +1,151 @@
+.modal {
+  position: fixed;
+  display: flex;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(40, 40, 40, 0.5);
+  z-index: 10;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none; }
+  .modal[status=open] {
+    opacity: 1;
+    pointer-events: all; }
+  .modal .modal-content {
+    width: 300px;
+    padding: 4px;
+    background: white; }
+    .modal .modal-content .content-group {
+      padding: 4px;
+      color: #555; }
+      .modal .modal-content .content-group .header {
+        padding: 8px;
+        font-size: 20px; }
+      .modal .modal-content .content-group .text {
+        padding: 8px;
+        font-size: 16px; }
+    .modal .modal-content .button-group {
+      display: flex;
+      padding: 8px; }
+      .modal .modal-content .button-group .button {
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 15px;
+        padding: 6px;
+        color: #1b9de2; }
+        .modal .modal-content .button-group .button:active {
+          color: #60b9e2; }
+
+.chatting-room {
+  width: 100%;
+  height: 100%; }
+  .chatting-room .chatting {
+    width: 100%;
+    height: calc(100% - 110px);
+    overflow-y: auto;
+    background: #ddd; }
+    .chatting-room .chatting::-webkit-scrollbar {
+      width: 6px; }
+    .chatting-room .chatting::-webkit-scrollbar-thumb {
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 10px; }
+    .chatting-room .chatting .chat-group {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 4px; }
+      .chatting-room .chatting .chat-group .chat {
+        display: flex;
+        padding: 2px; }
+        .chatting-room .chatting .chat-group .chat .profile {
+          padding-right: 8px; }
+          .chatting-room .chatting .chat-group .chat .profile .profile-image {
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            background: #555; }
+        .chatting-room .chatting .chat-group .chat .text-group {
+          margin: auto 0; }
+          .chatting-room .chatting .chat-group .chat .text-group .name {
+            text-align: left;
+            color: #333;
+            font-size: 13px;
+            padding-bottom: 3px; }
+          .chatting-room .chatting .chat-group .chat .text-group .message-group {
+            padding: auto;
+            display: flex; }
+            .chatting-room .chatting .chat-group .chat .text-group .message-group .text {
+              margin: auto 0;
+              max-width: 230px;
+              display: inline-block;
+              background: white;
+              word-break: break-all;
+              padding: 8px;
+              font-size: 12.5px;
+              color: #333; }
+            .chatting-room .chatting .chat-group .chat .text-group .message-group .date {
+              align-self: flex-end;
+              padding: 3px 6px;
+              font-size: 10px;
+              color: #666; }
+            .chatting-room .chatting .chat-group .chat .text-group .message-group .delete {
+              align-self: flex-end;
+              padding: 2px 4px;
+              font-size: 12px;
+              color: #888; }
+      .chatting-room .chatting .chat-group.sender .chat {
+        flex-direction: row-reverse; }
+        .chatting-room .chatting .chat-group.sender .chat .text-group .message-group {
+          margin: 1px 0;
+          flex-direction: row-reverse; }
+          .chatting-room .chatting .chat-group.sender .chat .text-group .message-group .name {
+            text-align: right; }
+          .chatting-room .chatting .chat-group.sender .chat .text-group .message-group .text {
+            background: #333;
+            color: white;
+            font-weight: 300; }
+  .chatting-room .ui-bar {
+    width: 100%;
+    height: 50px;
+    background: #f8f8f8;
+    display: flex;
+    border-bottom: 1px solid #ddd; }
+    .chatting-room .ui-bar i {
+      width: 30px;
+      height: 30px;
+      margin: 12px;
+      color: black; }
+      .chatting-room .ui-bar i:hover {
+        cursor: pointer; }
+    .chatting-room .ui-bar .text {
+      width: 40px;
+      margin: 10px 0;
+      font-size: 15px;
+      line-height: 30px; }
+  .chatting-room .input-bar {
+    width: 100%;
+    height: 60px;
+    background: white;
+    display: flex; }
+    .chatting-room .input-bar i {
+      width: 30px;
+      height: 30px;
+      margin: 5px;
+      color: #c8c8c8;
+      text-align: center;
+      line-height: 50px; }
+      .chatting-room .input-bar i:hover {
+        cursor: pointer;
+        color: #666; }
+    .chatting-room .input-bar textarea {
+      flex: 1;
+      margin: 5px;
+      border: none;
+      word-break: break-all;
+      font-size: 13px; }
+
+/*# sourceMappingURL=kakao-test.css.map */
