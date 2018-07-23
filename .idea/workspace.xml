@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="909b0bf4-eb31-445f-bdca-d74537b9f87b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/fractal.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/kakao-login.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/kakao-test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/sketch.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/fractal.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/kakaochat.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/kakaofriend.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/kakaolayout.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/kakaomain.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/kakaoprofile.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/kakaosetting.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/views/fractal.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/views/kakaochat.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/views/kakaofriend.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/views/kakaologin.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/views/kakaoprofile.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/views/kakaosetting.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/views/kakaouserchat.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/public/javascripts/album-test.js" afterPath="$PROJECT_DIR$/public/javascripts/album-test.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,81 +19,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="album-test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/album-test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="101" column="163" lean-forward="false" selection-start-line="101" selection-start-column="106" selection-end-line="101" selection-end-column="163" />
+            <state relative-caret-position="653">
+              <caret line="533" column="36" lean-forward="false" selection-start-line="533" selection-start-column="36" selection-end-line="533" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kakaofriend.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/views/kakaofriend.html">
+      <file leaf-file-name="kakao-login.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/kakao-login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="42" column="91" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="91" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kakaoprofile.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/views/kakaoprofile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kakaoprofile.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/kakaoprofile.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kakaochat.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/views/kakaochat.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="20" column="127" lean-forward="false" selection-start-line="20" selection-start-column="127" selection-end-line="20" selection-end-column="127" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kakaochat.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/kakaochat.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kakaosetting.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/views/kakaosetting.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kakaosetting.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/kakaosetting.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -117,9 +42,161 @@
       <file leaf-file-name="kakaouserchat.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/views/kakaouserchat.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+            <state relative-caret-position="1065">
+              <caret line="71" column="45" lean-forward="false" selection-start-line="71" selection-start-column="45" selection-end-line="71" selection-end-column="45" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="firebase.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/firebase.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <marker date="1529993603000" expanded="true" signature="28:1901" ph="{...}" />
+                <marker date="1529993603000" expanded="true" signature="47:400" ph="{&quot;apiKey&quot;: &quot;AIzaSyDN7a2oateloFHA-eje8RC5W0FgnVaJq50&quot;...}" />
+                <marker date="1529993603000" expanded="true" signature="565:675" ph="{...}" />
+                <marker date="1529993603000" expanded="true" signature="691:1545" ph="{...}" />
+                <marker date="1529993603000" expanded="true" signature="701:821" ph="/** @param id {String} ...*/" />
+                <marker date="1529993603000" expanded="true" signature="877:1163" ph="{...}" />
+                <marker date="1529993603000" expanded="true" signature="975:1091" ph="{&quot;id&quot;: id...}" />
+                <marker date="1529993603000" expanded="true" signature="1174:1214" ph="/** @param chatId ...*/" />
+                <marker date="1529993603000" expanded="true" signature="1269:1328" ph="{...}" />
+                <marker date="1529993603000" expanded="true" signature="1340:1457" ph="/** @param name {String} child_added, child_removed ...*/" />
+                <marker date="1529993603000" expanded="true" signature="1494:1539" ph="{...}" />
+                <marker date="1529993603000" expanded="true" signature="1601:1705" ph="{...}" />
+                <marker date="1529993603000" expanded="true" signature="1764:1870" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="component.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/component.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1532251295000" expanded="true" signature="51:752" ph="{...}" />
+                <marker date="1532251295000" expanded="true" signature="161:515" ph="{...}" />
+                <marker date="1532251295000" expanded="true" signature="275:377" ph="{...}" />
+                <marker date="1532251295000" expanded="true" signature="383:487" ph="{...}" />
+                <marker date="1532251295000" expanded="true" signature="560:749" ph="{...}" />
+                <marker date="1532251295000" expanded="true" signature="685:724" ph="{...}" />
+                <marker date="1532251295000" expanded="true" signature="803:1160" ph="{...}" />
+                <marker date="1532251295000" expanded="true" signature="913:1037" ph="{...}" />
+                <marker date="1532251295000" expanded="true" signature="1081:1157" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fractal.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/fractal.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5790">
+              <caret line="547" column="52" lean-forward="false" selection-start-line="547" selection-start-column="52" selection-end-line="547" selection-end-column="52" />
+              <folding>
+                <marker date="1532275041652" expanded="false" signature="0:4782" ph="//..." />
+                <marker date="1532275041652" expanded="true" signature="4784:8904" ph="//..." />
+                <marker date="1532275041652" expanded="true" signature="8906:12441" ph="//..." />
+                <marker date="1532275041652" expanded="true" signature="12485:15872" ph="{...}" />
+                <marker date="1532275041652" expanded="true" signature="12561:12587" ph="{...}" />
+                <marker date="1532275041652" expanded="true" signature="12643:13464" ph="{...}" />
+                <marker date="1532275041652" expanded="true" signature="13027:13156" ph="{&quot;depth&quot;: depth...}" />
+                <marker date="1532275041652" expanded="true" signature="13344:13460" ph="{...}" />
+                <marker date="1532275041652" expanded="true" signature="13501:14707" ph="{...}" />
+                <marker date="1532275041652" expanded="true" signature="14317:14618" ph="{...}" />
+                <marker date="1532275041652" expanded="true" signature="14334:14364" ph="..." />
+                <marker date="1532275041652" expanded="true" signature="14378:14456" ph="..." />
+                <marker date="1532275041652" expanded="true" signature="14470:14534" ph="..." />
+                <marker date="1532275041652" expanded="true" signature="14548:14612" ph="..." />
+                <marker date="1532275041652" expanded="true" signature="14738:15186" ph="{...}" />
+                <marker date="1532275041652" expanded="true" signature="15025:15110" ph="{...}" />
+                <marker date="1532275041652" expanded="true" signature="15253:15273" ph="{...}" />
+                <marker date="1532275041652" expanded="true" signature="15297:15326" ph="{...}" />
+                <marker date="1532275041652" expanded="true" signature="15351:15492" ph="{...}" />
+                <marker date="1532275041652" expanded="true" signature="15535:15771" ph="{...}" />
+                <marker date="1532275041652" expanded="true" signature="15583:15600" ph="{...}" />
+                <marker date="1532275041652" expanded="true" signature="15810:15870" ph="{...}" />
+                <marker date="1532275041652" expanded="true" signature="15892:16100" ph="{...}" />
+                <marker date="1532275041652" expanded="true" signature="16119:16152" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jsonFilter1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/jsonFilter1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1245">
+              <caret line="83" column="7" lean-forward="false" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="7" />
+              <folding>
+                <marker date="1529912072000" expanded="true" signature="10:1067" ph="[...]" />
+                <marker date="1529912072000" expanded="true" signature="14:673" ph="{&quot;gender&quot;: '남'...}" />
+                <marker date="1529912072000" expanded="true" signature="44:669" ph="[...]" />
+                <marker date="1529912072000" expanded="true" signature="52:250" ph="{...}" />
+                <marker date="1529912072000" expanded="true" signature="91:241" ph="[...]" />
+                <marker date="1529912072000" expanded="true" signature="103:231" ph="{...}" />
+                <marker date="1529912072000" expanded="true" signature="145:219" ph="[...]" />
+                <marker date="1529912072000" expanded="true" signature="161:205" ph="{&quot;name&quot;: '재종'...}" />
+                <marker date="1529912072000" expanded="true" signature="258:455" ph="{...}" />
+                <marker date="1529912072000" expanded="true" signature="297:447" ph="[...]" />
+                <marker date="1529912072000" expanded="true" signature="309:437" ph="{...}" />
+                <marker date="1529912072000" expanded="true" signature="351:425" ph="[...]" />
+                <marker date="1529912072000" expanded="true" signature="367:411" ph="{&quot;name&quot;: '준엽'...}" />
+                <marker date="1529912072000" expanded="true" signature="463:663" ph="{...}" />
+                <marker date="1529912072000" expanded="true" signature="502:654" ph="[...]" />
+                <marker date="1529912072000" expanded="true" signature="514:644" ph="{...}" />
+                <marker date="1529912072000" expanded="true" signature="558:632" ph="[...]" />
+                <marker date="1529912072000" expanded="true" signature="574:618" ph="{&quot;name&quot;: '현식'...}" />
+                <marker date="1529912072000" expanded="true" signature="677:1064" ph="{&quot;gender&quot;: '여'...}" />
+                <marker date="1529912072000" expanded="true" signature="707:1060" ph="[...]" />
+                <marker date="1529912072000" expanded="true" signature="715:1053" ph="{...}" />
+                <marker date="1529912072000" expanded="true" signature="754:1044" ph="[...]" />
+                <marker date="1529912072000" expanded="true" signature="766:894" ph="{...}" />
+                <marker date="1529912072000" expanded="true" signature="808:882" ph="[...]" />
+                <marker date="1529912072000" expanded="true" signature="824:868" ph="{&quot;name&quot;: '수정'...}" />
+                <marker date="1529912072000" expanded="true" signature="906:1034" ph="{...}" />
+                <marker date="1529912072000" expanded="true" signature="948:1022" ph="[...]" />
+                <marker date="1529912072000" expanded="true" signature="964:1008" ph="{&quot;name&quot;: '주원'...}" />
+                <marker date="1529912072000" expanded="true" signature="1083:2582" ph="{...}" />
+                <marker date="1529912072000" expanded="true" signature="1167:1852" ph="{...}" />
+                <marker date="1529912072000" expanded="true" signature="1480:1715" ph="{...}" />
+                <marker date="1529912072000" expanded="true" signature="1583:1640" ph="{...}" />
+                <marker date="1529912072000" expanded="true" signature="1652:1709" ph="{...}" />
+                <marker date="1529912072000" expanded="true" signature="1905:2186" ph="{...}" />
+                <marker date="1529912072000" expanded="true" signature="2021:2132" ph="{...}" />
+                <marker date="1529912072000" expanded="true" signature="2076:2126" ph="{...}" />
+                <marker date="1529912072000" expanded="true" signature="2239:2578" ph="{...}" />
+                <marker date="1529912072000" expanded="true" signature="2341:2524" ph="{...}" />
+                <marker date="1529912072000" expanded="true" signature="2387:2518" ph="{...}" />
+                <marker date="1529912072000" expanded="true" signature="2463:2510" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="textFinder.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/textFinder.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="57" column="21" lean-forward="false" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+              <folding>
+                <marker date="1532250660000" expanded="true" signature="3139:4622" ph="{...}" />
+                <marker date="1532250660000" expanded="true" signature="3401:3537" ph="{...}" />
+                <marker date="1532250660000" expanded="true" signature="3445:3484" ph="{...}" />
+                <marker date="1532250660000" expanded="true" signature="3490:3533" ph="{...}" />
+                <marker date="1532250660000" expanded="true" signature="3570:4526" ph="{...}" />
+                <marker date="1532250660000" expanded="true" signature="3749:4047" ph="{...}" />
+                <marker date="1532250660000" expanded="true" signature="3771:3838" ph="..." />
+                <marker date="1532250660000" expanded="true" signature="3857:3932" ph="..." />
+                <marker date="1532250660000" expanded="true" signature="3955:4041" ph="..." />
+                <marker date="1532250660000" expanded="true" signature="4335:4522" ph="{...}" />
+                <marker date="1532250660000" expanded="true" signature="4484:4514" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,8 +204,8 @@
       <file leaf-file-name="kakao-test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/kakao-test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-175">
-              <caret line="190" column="106" lean-forward="false" selection-start-line="190" selection-start-column="106" selection-end-line="190" selection-end-column="106" />
+            <state relative-caret-position="225">
+              <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
               <folding>
                 <marker date="1532275752182" expanded="true" signature="129:500" ph="..." />
                 <marker date="1532275752182" expanded="true" signature="150:493" ph="..." />
@@ -138,6 +215,18 @@
                 <marker date="1532275752182" expanded="true" signature="556:771" ph="..." />
                 <marker date="1532275752182" expanded="true" signature="581:764" ph="..." />
                 <marker date="1532275752182" expanded="true" signature="645:755" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sketch.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/sketch.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -171,23 +260,29 @@
         <option value="$PROJECT_DIR$/public/views/calculator.html" />
         <option value="$PROJECT_DIR$/public/views/jsonfilter.html" />
         <option value="$PROJECT_DIR$/public/views/textfinder.html" />
-        <option value="$PROJECT_DIR$/public/javascripts/album-test.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/addAlbum.css" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/public/views/fractal.html" />
         <option value="$PROJECT_DIR$/public/javascripts/fractal.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/kakao-test.js" />
+        <option value="$PROJECT_DIR$/public/views/kakaofriend.html" />
         <option value="$PROJECT_DIR$/public/views/kakaologin.html" />
         <option value="$PROJECT_DIR$/public/views/kakaoprofile.html" />
         <option value="$PROJECT_DIR$/public/views/kakaosetting.html" />
         <option value="$PROJECT_DIR$/public/views/kakaouserchat.html" />
-        <option value="$PROJECT_DIR$/public/javascripts/kakao-test.js" />
+        <option value="$PROJECT_DIR$/public/views/fractal.html" />
         <option value="$PROJECT_DIR$/public/views/kakaochat.html" />
-        <option value="$PROJECT_DIR$/public/views/kakaofriend.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/public/javascripts/album-test.js" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -256,6 +351,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -310,27 +407,27 @@
       <workItem from="1531460835037" duration="465000" />
       <workItem from="1531547419352" duration="787000" />
       <workItem from="1531576787690" duration="504000" />
-      <workItem from="1532240741651" duration="13797000" />
+      <workItem from="1532240741651" duration="14792000" />
+      <workItem from="1532314814797" duration="389000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15553000" />
+    <option name="totallyTimeSpent" value="16937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -361,19 +458,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jagascripts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/jagascripts" />
     <entry file="file://$PROJECT_DIR$/public/javascripts/addons/p5.dom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -381,7 +470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -389,14 +477,146 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/instagram.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="192" column="0" lean-forward="true" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/firbase.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3725">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/instagram.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/calculator.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/jsonfilter.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/textFinder.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/jsonfilter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/textfinder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/addAlbum.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/fractal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/kakaolayout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/kakaomain.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/kakaofriend.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/kakaoprofile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/kakaochat.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/kakaosetting.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/kakao-test.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/firebase.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="82" column="27" lean-forward="false" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/calculator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/p5.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
           <folding>
             <marker date="1524844696000" expanded="true" signature="33945:33950" ph="'" />
             <marker date="1524844696000" expanded="true" signature="37192:37198" ph="&quot;" />
@@ -593,34 +813,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/instagram.css">
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/kakaomenu.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="192" column="0" lean-forward="true" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/fractal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-55">
+          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/kakaochat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="137" column="98" lean-forward="false" selection-start-line="137" selection-start-column="98" selection-end-line="137" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/kakaofriend.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="92" column="93" lean-forward="false" selection-start-line="92" selection-start-column="93" selection-end-line="92" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/kakaologin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="16" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/firbase.css">
+    <entry file="file://$PROJECT_DIR$/public/views/kakaoprofile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3725">
-          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding />
+        <state relative-caret-position="690">
+          <caret line="46" column="92" lean-forward="false" selection-start-line="46" selection-start-column="92" selection-end-line="46" selection-end-column="92" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/instagram.html">
+    <entry file="file://$PROJECT_DIR$/public/views/kakaosetting.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="-595">
+          <caret line="18" column="88" lean-forward="false" selection-start-line="18" selection-start-column="88" selection-end-line="18" selection-end-column="88" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/calculator.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        <state relative-caret-position="210">
+          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -629,39 +875,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1529483653000" expanded="true" signature="113:437" ph="{...}" />
+            <marker date="1529483653000" expanded="true" signature="149:216" ph="{...}" />
+            <marker date="1529483653000" expanded="true" signature="299:354" ph="{...}" />
+            <marker date="1529483653000" expanded="true" signature="468:716" ph="{...}" />
+            <marker date="1529483653000" expanded="true" signature="539:624" ph="{...}" />
+            <marker date="1529483653000" expanded="true" signature="634:664" ph="{...}" />
+            <marker date="1529483653000" expanded="true" signature="768:1062" ph="{...}" />
+            <marker date="1529483653000" expanded="true" signature="775:859" ph="//..." />
+            <marker date="1529483653000" expanded="true" signature="936:1039" ph="{...}" />
+            <marker date="1529483653000" expanded="true" signature="1110:1196" ph="{...}" />
+            <marker date="1529483653000" expanded="true" signature="1241:1370" ph="{...}" />
+            <marker date="1529483653000" expanded="true" signature="1319:1347" ph="{...}" />
+            <marker date="1529483653000" expanded="true" signature="1411:1477" ph="{...}" />
+            <marker date="1529483653000" expanded="true" signature="1521:1649" ph="{...}" />
+            <marker date="1529483653000" expanded="true" signature="1599:1626" ph="{...}" />
+            <marker date="1529483653000" expanded="true" signature="1694:1801" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/kakaouserchat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" column="45" lean-forward="false" selection-start-line="71" selection-start-column="45" selection-end-line="71" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/firebase.html">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/firebase.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="82" column="27" lean-forward="false" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/jsonFilter1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/jsonfilter.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/textFinder.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <marker date="1529993603000" expanded="true" signature="28:1901" ph="{...}" />
+            <marker date="1529993603000" expanded="true" signature="47:400" ph="{&quot;apiKey&quot;: &quot;AIzaSyDN7a2oateloFHA-eje8RC5W0FgnVaJq50&quot;...}" />
+            <marker date="1529993603000" expanded="true" signature="565:675" ph="{...}" />
+            <marker date="1529993603000" expanded="true" signature="691:1545" ph="{...}" />
+            <marker date="1529993603000" expanded="true" signature="701:821" ph="/** @param id {String} ...*/" />
+            <marker date="1529993603000" expanded="true" signature="877:1163" ph="{...}" />
+            <marker date="1529993603000" expanded="true" signature="975:1091" ph="{&quot;id&quot;: id...}" />
+            <marker date="1529993603000" expanded="true" signature="1174:1214" ph="/** @param chatId ...*/" />
+            <marker date="1529993603000" expanded="true" signature="1269:1328" ph="{...}" />
+            <marker date="1529993603000" expanded="true" signature="1340:1457" ph="/** @param name {String} child_added, child_removed ...*/" />
+            <marker date="1529993603000" expanded="true" signature="1494:1539" ph="{...}" />
+            <marker date="1529993603000" expanded="true" signature="1601:1705" ph="{...}" />
+            <marker date="1529993603000" expanded="true" signature="1764:1870" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -669,168 +930,126 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/jsonfilter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/textfinder.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/album-test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="514" column="19" lean-forward="true" selection-start-line="514" selection-start-column="19" selection-end-line="514" selection-end-column="19" />
           <folding>
-            <element signature="e#3062#3103#0" expanded="false" />
+            <marker date="1532251295000" expanded="true" signature="51:752" ph="{...}" />
+            <marker date="1532251295000" expanded="true" signature="161:515" ph="{...}" />
+            <marker date="1532251295000" expanded="true" signature="275:377" ph="{...}" />
+            <marker date="1532251295000" expanded="true" signature="383:487" ph="{...}" />
+            <marker date="1532251295000" expanded="true" signature="560:749" ph="{...}" />
+            <marker date="1532251295000" expanded="true" signature="685:724" ph="{...}" />
+            <marker date="1532251295000" expanded="true" signature="803:1160" ph="{...}" />
+            <marker date="1532251295000" expanded="true" signature="913:1037" ph="{...}" />
+            <marker date="1532251295000" expanded="true" signature="1081:1157" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/calculator.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/addAlbum.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="22" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/fractal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="547" column="52" lean-forward="true" selection-start-line="547" selection-start-column="52" selection-end-line="547" selection-end-column="52" />
-          <folding />
+        <state relative-caret-position="5790">
+          <caret line="547" column="52" lean-forward="false" selection-start-line="547" selection-start-column="52" selection-end-line="547" selection-end-column="52" />
+          <folding>
+            <marker date="1532275041652" expanded="false" signature="0:4782" ph="//..." />
+            <marker date="1532275041652" expanded="true" signature="4784:8904" ph="//..." />
+            <marker date="1532275041652" expanded="true" signature="8906:12441" ph="//..." />
+            <marker date="1532275041652" expanded="true" signature="12485:15872" ph="{...}" />
+            <marker date="1532275041652" expanded="true" signature="12561:12587" ph="{...}" />
+            <marker date="1532275041652" expanded="true" signature="12643:13464" ph="{...}" />
+            <marker date="1532275041652" expanded="true" signature="13027:13156" ph="{&quot;depth&quot;: depth...}" />
+            <marker date="1532275041652" expanded="true" signature="13344:13460" ph="{...}" />
+            <marker date="1532275041652" expanded="true" signature="13501:14707" ph="{...}" />
+            <marker date="1532275041652" expanded="true" signature="14317:14618" ph="{...}" />
+            <marker date="1532275041652" expanded="true" signature="14334:14364" ph="..." />
+            <marker date="1532275041652" expanded="true" signature="14378:14456" ph="..." />
+            <marker date="1532275041652" expanded="true" signature="14470:14534" ph="..." />
+            <marker date="1532275041652" expanded="true" signature="14548:14612" ph="..." />
+            <marker date="1532275041652" expanded="true" signature="14738:15186" ph="{...}" />
+            <marker date="1532275041652" expanded="true" signature="15025:15110" ph="{...}" />
+            <marker date="1532275041652" expanded="true" signature="15253:15273" ph="{...}" />
+            <marker date="1532275041652" expanded="true" signature="15297:15326" ph="{...}" />
+            <marker date="1532275041652" expanded="true" signature="15351:15492" ph="{...}" />
+            <marker date="1532275041652" expanded="true" signature="15535:15771" ph="{...}" />
+            <marker date="1532275041652" expanded="true" signature="15583:15600" ph="{...}" />
+            <marker date="1532275041652" expanded="true" signature="15810:15870" ph="{...}" />
+            <marker date="1532275041652" expanded="true" signature="15892:16100" ph="{...}" />
+            <marker date="1532275041652" expanded="true" signature="16119:16152" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/fractal.css">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/jsonFilter1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1245">
+          <caret line="83" column="7" lean-forward="false" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="7" />
+          <folding>
+            <marker date="1529912072000" expanded="true" signature="10:1067" ph="[...]" />
+            <marker date="1529912072000" expanded="true" signature="14:673" ph="{&quot;gender&quot;: '남'...}" />
+            <marker date="1529912072000" expanded="true" signature="44:669" ph="[...]" />
+            <marker date="1529912072000" expanded="true" signature="52:250" ph="{...}" />
+            <marker date="1529912072000" expanded="true" signature="91:241" ph="[...]" />
+            <marker date="1529912072000" expanded="true" signature="103:231" ph="{...}" />
+            <marker date="1529912072000" expanded="true" signature="145:219" ph="[...]" />
+            <marker date="1529912072000" expanded="true" signature="161:205" ph="{&quot;name&quot;: '재종'...}" />
+            <marker date="1529912072000" expanded="true" signature="258:455" ph="{...}" />
+            <marker date="1529912072000" expanded="true" signature="297:447" ph="[...]" />
+            <marker date="1529912072000" expanded="true" signature="309:437" ph="{...}" />
+            <marker date="1529912072000" expanded="true" signature="351:425" ph="[...]" />
+            <marker date="1529912072000" expanded="true" signature="367:411" ph="{&quot;name&quot;: '준엽'...}" />
+            <marker date="1529912072000" expanded="true" signature="463:663" ph="{...}" />
+            <marker date="1529912072000" expanded="true" signature="502:654" ph="[...]" />
+            <marker date="1529912072000" expanded="true" signature="514:644" ph="{...}" />
+            <marker date="1529912072000" expanded="true" signature="558:632" ph="[...]" />
+            <marker date="1529912072000" expanded="true" signature="574:618" ph="{&quot;name&quot;: '현식'...}" />
+            <marker date="1529912072000" expanded="true" signature="677:1064" ph="{&quot;gender&quot;: '여'...}" />
+            <marker date="1529912072000" expanded="true" signature="707:1060" ph="[...]" />
+            <marker date="1529912072000" expanded="true" signature="715:1053" ph="{...}" />
+            <marker date="1529912072000" expanded="true" signature="754:1044" ph="[...]" />
+            <marker date="1529912072000" expanded="true" signature="766:894" ph="{...}" />
+            <marker date="1529912072000" expanded="true" signature="808:882" ph="[...]" />
+            <marker date="1529912072000" expanded="true" signature="824:868" ph="{&quot;name&quot;: '수정'...}" />
+            <marker date="1529912072000" expanded="true" signature="906:1034" ph="{...}" />
+            <marker date="1529912072000" expanded="true" signature="948:1022" ph="[...]" />
+            <marker date="1529912072000" expanded="true" signature="964:1008" ph="{&quot;name&quot;: '주원'...}" />
+            <marker date="1529912072000" expanded="true" signature="1083:2582" ph="{...}" />
+            <marker date="1529912072000" expanded="true" signature="1167:1852" ph="{...}" />
+            <marker date="1529912072000" expanded="true" signature="1480:1715" ph="{...}" />
+            <marker date="1529912072000" expanded="true" signature="1583:1640" ph="{...}" />
+            <marker date="1529912072000" expanded="true" signature="1652:1709" ph="{...}" />
+            <marker date="1529912072000" expanded="true" signature="1905:2186" ph="{...}" />
+            <marker date="1529912072000" expanded="true" signature="2021:2132" ph="{...}" />
+            <marker date="1529912072000" expanded="true" signature="2076:2126" ph="{...}" />
+            <marker date="1529912072000" expanded="true" signature="2239:2578" ph="{...}" />
+            <marker date="1529912072000" expanded="true" signature="2341:2524" ph="{...}" />
+            <marker date="1529912072000" expanded="true" signature="2387:2518" ph="{...}" />
+            <marker date="1529912072000" expanded="true" signature="2463:2510" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/fractal.html">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/textFinder.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/kakaolayout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/kakaologin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/kakaomain.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/kakao-login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/kakaofriend.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/kakaoprofile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/kakaoprofile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/kakaochat.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/kakaosetting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/kakaosetting.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/kakaouserchat.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-          <folding />
+        <state relative-caret-position="855">
+          <caret line="57" column="21" lean-forward="false" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+          <folding>
+            <marker date="1532250660000" expanded="true" signature="3139:4622" ph="{...}" />
+            <marker date="1532250660000" expanded="true" signature="3401:3537" ph="{...}" />
+            <marker date="1532250660000" expanded="true" signature="3445:3484" ph="{...}" />
+            <marker date="1532250660000" expanded="true" signature="3490:3533" ph="{...}" />
+            <marker date="1532250660000" expanded="true" signature="3570:4526" ph="{...}" />
+            <marker date="1532250660000" expanded="true" signature="3749:4047" ph="{...}" />
+            <marker date="1532250660000" expanded="true" signature="3771:3838" ph="..." />
+            <marker date="1532250660000" expanded="true" signature="3857:3932" ph="..." />
+            <marker date="1532250660000" expanded="true" signature="3955:4041" ph="..." />
+            <marker date="1532250660000" expanded="true" signature="4335:4522" ph="{...}" />
+            <marker date="1532250660000" expanded="true" signature="4484:4514" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/kakao-test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175">
-          <caret line="190" column="106" lean-forward="false" selection-start-line="190" selection-start-column="106" selection-end-line="190" selection-end-column="106" />
+        <state relative-caret-position="225">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
           <folding>
             <marker date="1532275752182" expanded="true" signature="129:500" ph="..." />
             <marker date="1532275752182" expanded="true" signature="150:493" ph="..." />
@@ -844,26 +1063,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/sketch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="101" column="163" lean-forward="false" selection-start-line="101" selection-start-column="106" selection-end-line="101" selection-end-column="163" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/album-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="533" column="36" lean-forward="false" selection-start-line="533" selection-start-column="36" selection-end-line="533" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/kakaochat.html">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/kakao-login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="20" column="127" lean-forward="false" selection-start-line="20" selection-start-column="127" selection-end-line="20" selection-end-column="127" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/kakaofriend.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="42" column="91" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="91" />
+        <state relative-caret-position="270">
+          <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="3" />
           <folding />
         </state>
       </provider>

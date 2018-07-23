@@ -327,23 +327,23 @@
 // }
 
 
-var s = function( sketch ) {
-  
-  var x = 100;
-  var y = 100;
-  console.log(sketch);
-  sketch.setup = function() {
-    sketch.createCanvas(200, 200);
-  };
-  
-  sketch.draw = function() {
-    sketch.background(0);
-    sketch.fill(255);
-    sketch.rect(x,y,50,50);
-  };
-};
-
-var myp5 = new p5(s);
+// var s = function( sketch ) {
+//
+//   var x = 100;
+//   var y = 100;
+//   console.log(sketch);
+//   sketch.setup = function() {
+//     sketch.createCanvas(200, 200);
+//   };
+//
+//   sketch.draw = function() {
+//     sketch.background(0);
+//     sketch.fill(255);
+//     sketch.rect(x,y,50,50);
+//   };
+// };
+//
+// var myp5 = new p5(s);
 
 
 // new function( sketch ) {
@@ -418,9 +418,9 @@ const shootingStar = new function () {
         this.b = 175;
       }
   
-      sketch.fill(this.r, this.g, this.b);
-      sketch.noStroke();
-      sketch.ellipse(this.x, this.y, this.rad, this.rad);
+      fill(this.r, this.g, this.b);
+      noStroke();
+      ellipse(this.x, this.y, this.rad, this.rad);
       
     };
     
@@ -490,11 +490,11 @@ const shootingStar = new function () {
     for (var j = 1; j < particle.lx.length; j++) {
       var opa = particle.opacity * 255 * j / particle.lx.length;
       if (opa < 0) break;
-      sketch.strokeWeight(opa * 10 / 255);
-      sketch.stroke(255, 242, 0, opa);
-      sketch.fill(200, 200, 200, particle.opacity * 255);
-      sketch.stroke(200, 200, 200, particle.opacity * 255);
-      sketch.line(particle.lx[j - 1], particle.ly[j - 1], particle.lx[j], particle.ly[j]);
+      strokeWeight(opa * 10 / 255);
+      stroke(255, 242, 0, opa);
+      fill(200, 200, 200, particle.opacity * 255);
+      stroke(200, 200, 200, particle.opacity * 255);
+      line(particle.lx[j - 1], particle.ly[j - 1], particle.lx[j], particle.ly[j]);
     }
     
   });
@@ -503,36 +503,36 @@ const shootingStar = new function () {
 };
 
 
-// function setup() {
-//   const $root = $('body');
-//   const $main = $('.py-5');
-//   // console.log($root.width(), $root.height());
-//   // console.log('main', $main.width(), $main.height());
-//   const thisWidth = $root.width();
-//   const thisHeight = $root.height() - $main.height();
-//   const canvas = createCanvas(thisWidth, thisHeight);
-//   canvas.parent('background');
-//   background(0);
-//
-//   mic = new p5.AudioIn();
-//   mic.start();
-//
-//   shootingStar.setSize(thisWidth, thisHeight);
-//   shootingStar.setTwinkle();
-//
-// }
-//
-// var mic;
+function setup() {
+  const $root = $('body');
+  const $main = $('.py-5');
+  // console.log($root.width(), $root.height());
+  // console.log('main', $main.width(), $main.height());
+  const thisWidth = $root.width();
+  const thisHeight = $root.height() - $main.height();
+  const canvas = createCanvas(thisWidth, thisHeight);
+  canvas.parent('background');
+  background(0);
 
-// function draw() {
-//
-//   background(0);
-//   if (mic.getLevel() > 0.01) {
-//     // console.log('gg');
-//     shootingStar.update(mic.getLevel());
-//   }
-//   shootingStar.update(0);
-// };
+  mic = new p5.AudioIn();
+  mic.start();
+
+  shootingStar.setSize(thisWidth, thisHeight);
+  shootingStar.setTwinkle();
+
+}
+
+var mic;
+
+function draw() {
+
+  background(0);
+  if (mic.getLevel() > 0.01) {
+    // console.log('gg');
+    shootingStar.update(mic.getLevel());
+  }
+  shootingStar.update(mic.getLevel());
+};
 
 
 // new function( sketch ) {
