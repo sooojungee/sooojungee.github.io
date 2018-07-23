@@ -14,6 +14,6 @@ $login.on('click', function() {
         alert('비밀번호를 8자 이상 입력하세요');
     }
     else
-        window.location = '/users/kakaofriend';
+        window.location = 'https://sooojungee.github.io/public/views/kakaofriend.html';
 
 });
