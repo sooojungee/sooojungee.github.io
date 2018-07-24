@@ -1,0 +1,35 @@
+<html>
+<head>
+  <link rel="stylesheet" href="../stylesheets/fractal.css"/>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="../javascripts/p5.js"></script>
+  <script src="../javascripts/canvas2image.js"></script>
+</head>
+<body>
+<div id="renderer"></div>
+<div class="ui">
+  <div class="input-text">Start Branch Count</div>
+  <input type="range" min="2" max="10" step="1" name="startBranchCount"/>
+  <div class="input-text">Child Branch Count</div>
+  <input type="range" min="2" max="6" step="1" name="childBranchCount"/>
+  <div class="input-text">Child Branch Angle</div>
+  <input type="range" min="0" max="50" step="1" name="childBranchAngle"/>
+  <div class="input-text">Depth Count</div>
+  <input type="range" min="2" max="10" step="1" name="depthCount"/>
+  <div class="input-text">Initial Branch Length</div>
+  <input type="range" min="0" max="100" step="0.01" name="initialBranchLength"/>
+  <div class="input-text">Child Branch Length Ratio</div>
+  <input type="range" min="0" max="2" step="0.01" name="childBranchLengthRatio"/>
+  <div class="input-text">Start Color</div>
+  <input type="color" name="startColor"/>
+  <div class="input-text">End Color</div>
+  <input type="color" name="endColor"/>
+  <div class="button" id="exe">exec</div>
+  <div class="button" id="pause">pause</div>
+  <div class="button" id="save">save image</div>
+</div>
+<script src="../javascripts/newControl.js"></script>
+<script src="../javascripts/newFractal.js"></script>
+</body>
+</html>

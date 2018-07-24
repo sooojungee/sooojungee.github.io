@@ -1,0 +1,316 @@
+* {
+  box-sizing: border-box;
+  -webkit-text-size-adjust: none; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nanum Gothic', sans-serif;
+  min-width: 1024px; }
+
+.content {
+  width: 1024px;
+  height: 100%;
+  margin: 0 auto; }
+
+.flex {
+  flex: 1; }
+
+.header {
+  height: 35px;
+  background: #333; }
+  .header .content {
+    display: flex; }
+    .header .content .content-box {
+      font-weight: 600;
+      width: 386px;
+      height: 26px;
+      display: flex;
+      margin: auto 0;
+      color: white; }
+      .header .content .content-box:hover {
+        cursor: pointer; }
+      .header .content .content-box .box-cell {
+        white-space: nowrap;
+        width: 42px;
+        height: 7px;
+        -webkit-transform: scale(0.55);
+        line-height: 7px;
+        margin: auto 0; }
+      .header .content .content-box .box-language {
+        width: 80px;
+        height: 22px;
+        display: flex;
+        margin: auto 0 auto 20px;
+        background: #253140; }
+        .header .content .content-box .box-language .language-check {
+          -webkit-transform: scale(0.8);
+          line-height: 26px;
+          text-align: center;
+          font-size: 1px; }
+        .header .content .content-box .box-language i.material-icons {
+          -webkit-transform: scale(0.8); }
+      .header .content .content-box .box-search {
+        display: flex;
+        width: 150px;
+        height: 26px; }
+        .header .content .content-box .box-search .search-bar {
+          width: 125px;
+          height: 24px;
+          background-color: white; }
+          .header .content .content-box .box-search .search-bar:hover {
+            cursor: text; }
+        .header .content .content-box .box-search i.material-icons {
+          width: 23px;
+          height: 23px;
+          font-size: 20px;
+          background: #5c5c5c; }
+
+.nav {
+  height: 90px;
+  background: #0a2f5c; }
+  .nav .content {
+    display: flex; }
+    .nav .content .nav-img {
+      width: 188px;
+      height: 90px;
+      background: url("/images/ajouimg.png") no-repeat;
+      background-size: auto; }
+      .nav .content .nav-img:hover {
+        cursor: pointer; }
+    .nav .content .nav-main {
+      width: 750px;
+      height: 90px;
+      display: flex; }
+      .nav .content .nav-main .main-session {
+        width: 125px;
+        height: 90px;
+        color: white;
+        line-height: 90px;
+        text-align: center;
+        font-weight: 600; }
+        .nav .content .nav-main .main-session:hover {
+          cursor: pointer;
+          color: #0a2f5c;
+          text-decoration: underline;
+          background-color: white; }
+
+.img-zone {
+  height: 580px;
+  background: url("http://www.ajou.ac.kr/_attach/new/_images/2018/06/15/180615_main_visual_002_bg.gif") 50% 0px no-repeat transparent; }
+  .img-zone .content {
+    position: relative; }
+    .img-zone .content .content-mini {
+      width: 190px;
+      height: 86px;
+      position: absolute;
+      bottom: 0;
+      display: flex; }
+      .img-zone .content .content-mini:hover {
+        cursor: pointer; }
+      .img-zone .content .content-mini .direction {
+        width: 36px;
+        height: 36px;
+        color: white;
+        border: 1px solid #ccc;
+        font-weight: 600;
+        margin: 25px 5px;
+        line-height: 36px;
+        text-align: center; }
+      .img-zone .content .content-mini .content-point {
+        width: 90px;
+        height: 36px;
+        margin: 25px 5px; }
+        .img-zone .content .content-mini .content-point .position {
+          width: 15px;
+          height: 13px;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 36px;
+          text-align: center;
+          color: rgba(150, 150, 150, 0.8); }
+        .img-zone .content .content-mini .content-point .icon-white {
+          color: rgba(255, 255, 255, 0.9); }
+
+.news-zone {
+  height: 780px;
+  background: white; }
+  .news-zone .content .news-contents {
+    height: 470px;
+    position: relative; }
+    .news-zone .content .news-contents .news-main {
+      width: 100%;
+      height: 410px;
+      position: absolute;
+      bottom: 0; }
+      .news-zone .content .news-contents .news-main .news-button {
+        width: 100%;
+        height: 25px;
+        display: flex;
+        margin: 0 0 20px 0; }
+        .news-zone .content .news-contents .news-main .news-button .news-click {
+          font-size: 22px;
+          font-weight: bold;
+          width: 281px;
+          color: #555555; }
+          .news-zone .content .news-contents .news-main .news-button .news-click:hover {
+            cursor: pointer; }
+        .news-zone .content .news-contents .news-main .news-button i.material-icons {
+          width: 25px;
+          height: 25px;
+          font-size: 25px;
+          font-weight: bold;
+          padding: 5px 0;
+          color: #555555; }
+          .news-zone .content .news-contents .news-main .news-button i.material-icons:hover {
+            cursor: pointer; }
+      .news-zone .content .news-contents .news-main .news-item {
+        width: 100%;
+        height: 312px;
+        display: flex; }
+        .news-zone .content .news-contents .news-main .news-item .news-content {
+          width: 324px;
+          margin: 0 25px 0 0; }
+          .news-zone .content .news-contents .news-main .news-item .news-content:hover {
+            cursor: pointer; }
+          .news-zone .content .news-contents .news-main .news-item .news-content .news-image {
+            width: 324px;
+            height: 218px; }
+            .news-zone .content .news-contents .news-main .news-item .news-content .news-image .opacity {
+              width: 100%;
+              height: 100%; }
+              .news-zone .content .news-contents .news-main .news-item .news-content .news-image .opacity:hover {
+                background: rgba(0, 0, 0, 0.4); }
+          .news-zone .content .news-contents .news-main .news-item .news-content .news-image-1 {
+            background: url("http://www.ajou.ac.kr/_attach/new/_images/2018/06/05/34fb8c2e138ee2f5554662827ef0693f.jpg") no-repeat;
+            background-size: auto;
+            background-size: 100% 100%; }
+          .news-zone .content .news-contents .news-main .news-item .news-content .news-image-2 {
+            background: url("http://www.ajou.ac.kr/_attach/new/_images/2018/06/05/0b1813f724f21e3aff29f41baadb4cc6.jpg") no-repeat;
+            background-size: auto;
+            background-size: 100% 100%; }
+          .news-zone .content .news-contents .news-main .news-item .news-content .news-image-3 {
+            background: url("http://www.ajou.ac.kr/_attach/new/_images/2018/05/31/94106f50ee715c51c44d5a0006a59ca5.jpg") no-repeat;
+            background-size: auto;
+            background-size: 100% 100%; }
+          .news-zone .content .news-contents .news-main .news-item .news-content .news-title {
+            width: 100%;
+            height: 39px; }
+            .news-zone .content .news-contents .news-main .news-item .news-content .news-title h1 {
+              width: 90%;
+              height: 19px;
+              margin: 10px 0;
+              font-size: 14px;
+              font-weight: 700;
+              line-height: 19.6px;
+              color: #343941;
+              display: inline-block;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis; }
+              .news-zone .content .news-contents .news-main .news-item .news-content .news-title h1:hover {
+                text-decoration: underline; }
+          .news-zone .content .news-contents .news-main .news-item .news-content .news-body {
+            display: inline-block;
+            height: 45px;
+            padding: 0 0 10px 0;
+            color: #555555;
+            font-size: 14px;
+            line-height: 23.8px;
+            overflow: hidden; }
+            .news-zone .content .news-contents .news-main .news-item .news-content .news-body:hover {
+              text-decoration: underline; }
+  .news-zone .content .notice-contents {
+    height: 310px;
+    position: relative; }
+    .news-zone .content .notice-contents .notice-main {
+      width: 100%;
+      height: 295px;
+      position: absolute; }
+      .news-zone .content .notice-contents .notice-main .notice-button {
+        width: 100%;
+        height: 25px;
+        margin: 0 0 20px 0; }
+        .news-zone .content .notice-contents .notice-main .notice-button .notice-click {
+          width: 280px;
+          height: 25px;
+          line-height: 25px;
+          font-size: 22px;
+          font-weight: bold;
+          color: #555555; }
+          .news-zone .content .notice-contents .notice-main .notice-button .notice-click:hover {
+            cursor: pointer; }
+      .news-zone .content .notice-contents .notice-main .notice-content {
+        width: 100%;
+        height: 195px;
+        display: flex; }
+        .news-zone .content .notice-contents .notice-main .notice-content .notice-box {
+          width: 324px;
+          margin: 0 25px 0 0; }
+          .news-zone .content .notice-contents .notice-main .notice-content .notice-box .notice-summary {
+            width: 324px;
+            height: 18px;
+            margin: 0 0 10px 0;
+            display: flex; }
+            .news-zone .content .notice-contents .notice-main .notice-content .notice-box .notice-summary .summary-title {
+              width: 62px;
+              height: 18px;
+              margin: 0 15px 0 0;
+              font-size: 12px;
+              line-height: 18px;
+              text-align: center;
+              color: white;
+              background: #797979; }
+            .news-zone .content .notice-contents .notice-main .notice-content .notice-box .notice-summary .summary-content {
+              width: 262px;
+              font-size: 14px;
+              line-height: 14px;
+              color: #343941;
+              display: inline-block;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis; }
+              .news-zone .content .notice-contents .notice-main .notice-content .notice-box .notice-summary .summary-content:hover {
+                cursor: pointer;
+                text-decoration: underline; }
+          .news-zone .content .notice-contents .notice-main .notice-content .notice-box .notice-image {
+            width: 324px;
+            height: 185px;
+            background: url("http://www.ajou.ac.kr/_resources/new/img/banner/20180428_insight.jpg") no-repeat;
+            background-size: auto;
+            background-size: 100% 100%; }
+            .news-zone .content .notice-contents .notice-main .notice-content .notice-box .notice-image:hover {
+              cursor: pointer; }
+          .news-zone .content .notice-contents .notice-main .notice-content .notice-box .notice-date {
+            width: 100%;
+            height: 55px;
+            margin: 0 0 10px 0;
+            display: flex; }
+            .news-zone .content .notice-contents .notice-main .notice-content .notice-box .notice-date .date-check {
+              width: 52px;
+              height: 55px;
+              background: #0a2f5b;
+              color: white;
+              margin: 0 15px 0 0; }
+              .news-zone .content .notice-contents .notice-main .notice-content .notice-box .notice-date .date-check .check-month {
+                padding: 8px 0 4px 0;
+                font-size: 10px;
+                text-align: center; }
+              .news-zone .content .notice-contents .notice-main .notice-content .notice-box .notice-date .date-check .check-date {
+                padding: 0 0 8px 0;
+                font-size: 17px;
+                text-align: center; }
+            .news-zone .content .notice-contents .notice-main .notice-content .notice-box .notice-date .date-content {
+              width: 240px;
+              font-size: 14px;
+              color: #343941;
+              display: inline-block;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              margin: 10px 0 0 0; }
+              .news-zone .content .notice-contents .notice-main .notice-content .notice-box .notice-date .date-content:hover {
+                cursor: pointer;
+                text-decoration: underline; }
+
+/*# sourceMappingURL=test.css.map */
