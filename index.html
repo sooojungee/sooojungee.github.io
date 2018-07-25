@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -8,16 +7,20 @@
   <meta name="author" content="">
   <link rel="icon" href="../../../../favicon.ico">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link rel="stylesheet" href="public/stylesheets/albumBootstrap.css">
   <link rel="stylesheet" href="public/stylesheets/album.css">
   <link rel="stylesheet" href="public/stylesheets/addAlbum.css">
+  <!--<link rel="stylesheet" href="public/stylesheets/progress.css">-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
   <script src="public/javascripts/p5.js"></script>
   <script src="public/javascripts/addons/p5.dom.min.js"></script>
   <script src="public/javascripts/addons/p5.sound.min.js"></script>
 </head>
-
 <body>
 <div id="background"></div>
 <div class="content">
@@ -25,13 +28,11 @@
     <div class="collapse bg-dark" id="navbarHeader">
       <div class="container">
         <div class="row">
-          <div class="col-sm-8 col-md-7 py-4">
-            <h4 class="text-white">About</h4>
-            <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact
-              information.</p>
-          </div>
-          <div class="col-sm-4 offset-md-1 py-4">
-            <h4 class="text-white">Contact</h4>
+          <div class="col-sm-8 col-md-7 py-4"><h4 class="text-white">About</h4>
+            <p class="text-muted">Add some information about the album below, the author, or any other background
+              context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off
+              to some social networking sites or contact information.</p></div>
+          <div class="col-sm-4 offset-md-1 py-4"><h4 class="text-white">Contact</h4>
             <ul class="list-unstyled">
               <li><a class="text-white" href="#">Follow on Twitter</a></li>
               <li><a class="text-white" href="#">Like on Facebook</a></li>
@@ -42,113 +43,38 @@
       </div>
     </div>
     <div class="navbar navbar-dark box-shadow blue-color">
-      <div class="container d-flex justify-content-between">
-        <a class="navbar-brand d-flex align-items-center" href="#">
-          <!--svg.mr-2(xmlns='http://www.w3.org/2000/svg', width='20', height='20', viewbox='0 0 24 24', fill='none', stroke='currentColor', stroke-width='2', stroke-linecap='round', stroke-linejoin='round')//path(d='M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z')
+      <div class="container d-flex justify-content-between"><a class="navbar-brand d-flex align-items-center" href="#"><!--svg.mr-2(xmlns='http://www.w3.org/2000/svg', width='20', height='20', viewbox='0 0 24 24', fill='none', stroke='currentColor', stroke-width='2', stroke-linecap='round', stroke-linejoin='round')//path(d='M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z')
 //circle(cx='12', cy='13', r='4')-->
-          <div class="i material-icons">home</div><strong>Blog</strong></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button></div>
+        <div class="i material-icons">home</div>
+        <strong>Blog</strong></a>
+        <div class="search-bar"><i class="fa fa-search" id="search"></i><input id="input" placeholder="Search"></div>
+      </div>
     </div>
   </header>
-  <main role="main">
+  <main role="main" id="main">
     <section class="jumbotron text-center container-make">
-      <div class="container container-make">
-        <h1 class="jumbotron-heading">sooojungee.io</h1>
+      <div class="container container-make"><h1 class="jumbotron-heading">sooojungee.io</h1>
         <p class="lead text-muted">E-Mail: sooojungee@gmail.com<br>GitHub: https://github.com/sooojungee
           <!--| Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.-->
         </p>
-        <p><a class="btn btn-primary my-2 text-padding text-margin text-size" href="#">Send mail</a><a class="btn btn-secondary my-2 text-padding text-size" href="https://github.com/sooojungee">Visit github</a></p>
-      </div>
+        <p><a class="btn btn-primary my-2 text-padding text-margin text-size" href="#">Send mail</a><a
+                class="btn btn-secondary my-2 text-padding text-size" href="https://github.com/sooojungee">Visit
+          github</a></p></div>
     </section>
-    <div class="album py-5 bg-light">
+    <div class="album py-5 bg-light main-content">
       <div class="container background-color">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card mb-4 box-shadow"><img class="card-img-top padding-8" src="https://preview.ibb.co/bzYEYd/2018_07_22_8_17_13.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group"><button class="btn btn-sm btn-outline-secondary width" type="button">View</button>
-                    <!--button.btn.btn-sm.btn-outline-secondary(type='button') Edit-->
-                  </div><small class="text-muted">JULY 2018</small></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 box-shadow"><img class="card-img-top padding-8" src="https://preview.ibb.co/c0zJ9J/2018_07_22_7_06_49.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center"><a class="btn-group" href="https://sooojungee.github.io/public/views/textfinder.html"><button class="btn btn-sm btn-outline-secondary width" type="button">View</button><!--button.btn.btn-sm.btn-outline-secondary(type='button') Edit--></a>
-                  <small
-                          class="text-muted">JULY 2018</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 box-shadow"><img class="card-img-top padding-8" src="https://preview.ibb.co/crYpGy/2018_07_22_5_56_08.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center"><a class="btn-group" href="https://sooojungee.github.io/public/views/jsonfilter.html"><button class="btn btn-sm btn-outline-secondary width" type="button">View</button><!--button.btn.btn-sm.btn-outline-secondary(type='button') Edit--></a>
-                  <small
-                          class="text-muted">JUNE 2018</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 box-shadow"><img class="card-img-top padding-8" src="https://preview.ibb.co/g5Gy9J/2018_07_22_7_03_06.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center"><a class="btn-group" href="https://sooojungee.github.io/public/views/calculator.html"><button class="btn btn-sm btn-outline-secondary width" type="button">View</button><!--button.btn.btn-sm.btn-outline-secondary(type='button') Edit--></a>
-                  <small
-                          class="text-muted">JUNE 2018</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 box-shadow"><img class="card-img-top padding-8" src="https://preview.ibb.co/eMr9Gy/2018_07_22_5_55_12.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center"><a class="btn-group" href="https://sooojungee.github.io/public/views/kakaologin.html"><button class="btn btn-sm btn-outline-secondary width" type="button">View</button><!--button.btn.btn-sm.btn-outline-secondary(type='button') Edit--></a><small class="text-muted">JUNE 2018</small></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 box-shadow"><img class="card-img-top padding-8" src="https://preview.ibb.co/iVmtby/2018_07_22_5_54_35.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center"><a class="btn-group" href="https://sooojungee.github.io/public/views/firebase.html"><button class="btn btn-sm btn-outline-secondary width" href="https://sooojungee.github.io/public/views/instagram.html" type="button">View</button><!--button.btn.btn-sm.btn-outline-secondary(type='button') Edit--></a>
-                  <small
-                          class="text-muted">JUNE 2018</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 box-shadow"><img class="card-img-top padding-8" src="https://preview.ibb.co/jeFpid/2018_07_22_5_53_59.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center"><a class="btn-group" href="https://sooojungee.github.io/public/views/instagram.html"><button class="btn btn-sm btn-outline-secondary width" type="button">View</button><!--button.btn.btn-sm.btn-outline-secondary(type='button') Edit--></a>
-                  <small
-                          class="text-muted">JUNE 2018</small>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <div class="row height-auto" id="row"></div>
       </div>
     </div>
   </main>
   <footer class="text-muted">
-    <div class="container">
-      <p class="float-right"><a href="#">Back to top</a></p>
+    <div class="container"><p class="float-right"><a href="#">Back to top</a></p>
       <p>Album example is © Bootstrap, but please download and customize it for yourself!</p>
-      <p>New to Bootstrap?<a href="../../">Visit the homepage</a> or read our<a href="../../getting-started/">getting started guide</a>.</p>
-    </div>
+      <p>New to Bootstrap?<a href="../../">Visit the homepage</a> or read our<a href="../../getting-started/">getting
+        started guide</a>.</p></div>
   </footer>
 </div>
 <script src="public/javascripts/album-test.js"></script>
+<script src="public/javascripts/blog.js"></script>
 </body>
-
 </html>
