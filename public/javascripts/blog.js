@@ -4,42 +4,42 @@ let blogCard = [
     date: 'JULY 2018',
     imgUrl: 'https://preview.ibb.co/nkPato/2018_07_24_3_21_38.png',
     siteUrl: 'https://sooojungee.github.io/public/views/newFractal.html',
-    tag: ['fractal', 'canvas', 'rotate', 'color', 'skdufhskdufh', 'a']
+    tag: ['fractal', 'canvas', 'rotate', 'color']
   },
   {
     text: 'textFinder',
     date: 'JULY 2018',
     imgUrl: 'https://preview.ibb.co/c0zJ9J/2018_07_22_7_06_49.png',
     siteUrl: 'https://sooojungee.github.io/public/views/textfinder.html',
-    tag: ['button', 'input', 'skdufhskdufh']
+    tag: ['button', 'input', 'textFinder']
   },
   {
     text: 'JsonFilter',
     date: 'JUNE 2018',
     imgUrl: 'https://preview.ibb.co/crYpGy/2018_07_22_5_56_08.png',
     siteUrl: 'https://sooojungee.github.io/public/views/jsonfilter.html',
-    tag: ['json', 'filter', 'select', 'skdufhskdufh']
+    tag: ['json', 'filter', 'select', 'jsonFilter']
   },
   {
     text: 'calculator',
     date: 'JUNE 2018',
     imgUrl: 'https://preview.ibb.co/g5Gy9J/2018_07_22_7_03_06.png',
     siteUrl: 'https://sooojungee.github.io/public/views/calculator.html',
-    tag: ['calculator', 'eval', 'math', 'skdufhskdufh']
+    tag: ['calculator', 'eval', 'math']
   },
   {
     text: 'kakaotalk',
     date: 'JUNE 2018',
     imgUrl: 'https://preview.ibb.co/eMr9Gy/2018_07_22_5_55_12.png',
     siteUrl: 'https://sooojungee.github.io/public/views/kakaologin.html',
-    tag: ['input', 'password', 'atag...........', 'skdufhskdufh', 'a']
+    tag: ['input', 'password', 'atag...........', 'kakaotalk']
   },
   {
     text: 'firebase',
     date: 'JUNE 2018',
     imgUrl: 'https://preview.ibb.co/iVmtby/2018_07_22_5_54_35.png',
     siteUrl: 'https://sooojungee.github.io/public/views/firebase.html',
-    tag: ['animation', 'hover', 'grid', 'a']
+    tag: ['animation', 'hover', 'grid', 'firebase']
   },
   
   {
@@ -47,14 +47,14 @@ let blogCard = [
     date: 'JUNE 2018',
     imgUrl: 'https://preview.ibb.co/jeFpid/2018_07_22_5_53_59.png',
     siteUrl: 'https://sooojungee.github.io/public/views/instagram.html',
-    tag: ['flex-wrap', 'icon', 'grid', 'a']
+    tag: ['flex-wrap', 'icon', 'grid', 'instagram']
   },
   {
     text: 'ajou',
     date: 'JUNE 2018',
     imgUrl: 'https://preview.ibb.co/fNtc8o/2018_07_25_3_04_25.png',
     siteUrl: 'https://sooojungee.github.io/public/views/ajou.html',
-    tag: ['flex-wrap', 'icon', 'grid', 'a']
+    tag: ['ajou']
   },
 
 ];
