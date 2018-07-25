@@ -74,7 +74,7 @@ body {
     .nav .content .nav-img {
       width: 188px;
       height: 90px;
-      background: url("/images/ajouimg.png") no-repeat;
+      background: url("https://image.ibb.co/d23kTo/ajouimg.png") no-repeat;
       background-size: auto; }
       .nav .content .nav-img:hover {
         cursor: pointer; }
