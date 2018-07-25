@@ -52,8 +52,8 @@ let blogCard = [
   {
     text: 'ajou',
     date: 'JUNE 2018',
-    imgUrl: 'https://preview.ibb.co/jeFpid/2018_07_22_5_53_59.png',
-    siteUrl: 'https://sooojungee.github.io/public/views/instagram.html',
+    imgUrl: 'https://preview.ibb.co/fNtc8o/2018_07_25_3_04_25.png',
+    siteUrl: 'https://sooojungee.github.io/public/views/ajou.html',
     tag: ['flex-wrap', 'icon', 'grid', 'a']
   },
 
