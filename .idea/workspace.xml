@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="909b0bf4-eb31-445f-bdca-d74537b9f87b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/blog.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/views/cardView.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/public/javascripts/blog.js" afterPath="$PROJECT_DIR$/public/javascripts/blog.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,20 +16,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="canvas2image.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/canvas2image.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="newFractal.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/views/newFractal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="50">
               <caret line="16" column="73" lean-forward="true" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
               <folding />
             </state>
@@ -78,27 +66,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+            <state relative-caret-position="319">
+              <caret line="60" column="105" lean-forward="false" selection-start-line="60" selection-start-column="76" selection-end-line="60" selection-end-column="105" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="addAlbum.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/addAlbum.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1395">
+              <caret line="93" column="40" lean-forward="false" selection-start-line="93" selection-start-column="40" selection-end-line="93" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/blog.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="179" column="21" lean-forward="true" selection-start-line="179" selection-start-column="21" selection-end-line="179" selection-end-column="21" />
+            <state relative-caret-position="75">
+              <caret line="5" column="66" lean-forward="false" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
               <folding>
-                <element signature="e#15#1783#0" expanded="false" />
-                <marker date="1532497647022" expanded="true" signature="2157:2708" ph="..." />
-                <marker date="1532497647022" expanded="true" signature="2196:2701" ph="..." />
-                <marker date="1532497647022" expanded="true" signature="2300:2690" ph="..." />
-                <marker date="1532497647022" expanded="true" signature="2353:2372" ph="..." />
+                <element signature="e#4930#5036#0" expanded="false" />
+                <marker date="1532497796382" expanded="true" signature="2158:2709" ph="..." />
+                <marker date="1532497796382" expanded="true" signature="2197:2702" ph="..." />
+                <marker date="1532497796382" expanded="true" signature="2301:2691" ph="..." />
+                <marker date="1532497796382" expanded="true" signature="2354:2373" ph="..." />
               </folding>
             </state>
           </provider>
@@ -140,6 +138,7 @@
       <find>visit</find>
       <find>stroke</find>
       <find>ske</find>
+      <find>navbar-brand</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -155,7 +154,6 @@
         <option value="$PROJECT_DIR$/public/views/calculator.html" />
         <option value="$PROJECT_DIR$/public/views/jsonfilter.html" />
         <option value="$PROJECT_DIR$/public/views/textfinder.html" />
-        <option value="$PROJECT_DIR$/public/stylesheets/addAlbum.css" />
         <option value="$PROJECT_DIR$/public/javascripts/fractal.js" />
         <option value="$PROJECT_DIR$/public/javascripts/kakao-test.js" />
         <option value="$PROJECT_DIR$/public/views/kakaofriend.html" />
@@ -165,7 +163,6 @@
         <option value="$PROJECT_DIR$/public/views/kakaouserchat.html" />
         <option value="$PROJECT_DIR$/public/views/fractal.html" />
         <option value="$PROJECT_DIR$/public/views/kakaochat.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/public/javascripts/album-test.js" />
         <option value="$PROJECT_DIR$/public/javascripts/kakao-login.js" />
         <option value="$PROJECT_DIR$/public/views/newFractal.html" />
@@ -173,6 +170,8 @@
         <option value="$PROJECT_DIR$/public/javascripts/newControl.js" />
         <option value="$PROJECT_DIR$/public/views/ajou.html" />
         <option value="$PROJECT_DIR$/public/views/cardView.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/public/stylesheets/addAlbum.css" />
         <option value="$PROJECT_DIR$/public/javascripts/blog.js" />
       </list>
     </option>
@@ -315,12 +314,12 @@
       <workItem from="1532240741651" duration="14792000" />
       <workItem from="1532314814797" duration="3184000" />
       <workItem from="1532406957889" duration="5984000" />
-      <workItem from="1532492953230" duration="674000" />
+      <workItem from="1532492953230" duration="1054000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26390000" />
+    <option name="totallyTimeSpent" value="26770000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
@@ -460,13 +459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/addAlbum.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="22" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -668,14 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/newFractal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="73" lean-forward="true" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/newControl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
@@ -724,25 +708,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/addAlbum.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        <state relative-caret-position="1395">
+          <caret line="93" column="40" lean-forward="false" selection-start-line="93" selection-start-column="40" selection-end-line="93" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/newFractal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="16" column="73" lean-forward="true" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/blog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="179" column="21" lean-forward="true" selection-start-line="179" selection-start-column="21" selection-end-line="179" selection-end-column="21" />
+        <state relative-caret-position="75">
+          <caret line="5" column="66" lean-forward="false" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
           <folding>
-            <element signature="e#15#1783#0" expanded="false" />
-            <marker date="1532497647022" expanded="true" signature="2157:2708" ph="..." />
-            <marker date="1532497647022" expanded="true" signature="2196:2701" ph="..." />
-            <marker date="1532497647022" expanded="true" signature="2300:2690" ph="..." />
-            <marker date="1532497647022" expanded="true" signature="2353:2372" ph="..." />
+            <element signature="e#4930#5036#0" expanded="false" />
+            <marker date="1532497796382" expanded="true" signature="2158:2709" ph="..." />
+            <marker date="1532497796382" expanded="true" signature="2197:2702" ph="..." />
+            <marker date="1532497796382" expanded="true" signature="2301:2691" ph="..." />
+            <marker date="1532497796382" expanded="true" signature="2354:2373" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="60" column="105" lean-forward="false" selection-start-line="60" selection-start-column="76" selection-end-line="60" selection-end-column="105" />
+          <folding />
         </state>
       </provider>
     </entry>

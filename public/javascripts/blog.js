@@ -3,7 +3,7 @@ let blogCard = [
     text: 'fractal',
     date: 'JULY 2018',
     imgUrl: 'https://preview.ibb.co/nkPato/2018_07_24_3_21_38.png',
-    siteUrl: 'https://sooojungee.github.io/public/views/instagram.html',
+    siteUrl: 'https://sooojungee.github.io/public/views/newFractal.html',
     tag: ['fractal', 'canvas', 'rotate', 'color', 'skdufhskdufh', 'a']
   },
   {
