@@ -49,6 +49,21 @@ let blogCard = [
     siteUrl: 'https://sooojungee.github.io/public/views/instagram.html',
     tag: ['flex-wrap', 'icon', 'grid']
   },
+  
+  {
+    text: 'instagram',
+    date: 'JUNE 2018',
+    img: '/images/instagram.png',
+    siteUrl: 'https://sooojungee.github.io/public/views/instagram.html',
+    tag: ['flex-wrap', 'icon', 'grid']
+  },
+  {
+    text: 'ajouUniv',
+    date: 'JUNE 2018',
+    img: '/images/ajou.png',
+    siteUrl: 'https://sooojungee.github.io/public/views/ajou.html',
+    tag: ['ajouUniv', 'grid']
+  },
 
 ];
 let data = JSON.parse(JSON.stringify(blogCard));
