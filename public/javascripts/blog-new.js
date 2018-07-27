@@ -2,42 +2,42 @@ let blogCard = [
   {
     text: 'fractal',
     date: 'JULY 2018',
-    img: '../images/fractal.png',
+    img: 'public/images/fractal.png',
     siteUrl: 'https://sooojungee.github.io/public/views/instagram.html',
     tag: ['fractal', 'canvas', 'rotate', 'color', 'skdufhskdufh', 'a']
   },
   {
     text: 'textFinder',
     date: 'JULY 2018',
-    img: '/images/textFinder.png',
+    img: 'public/images/textFinder.png',
     siteUrl: 'https://sooojungee.github.io/public/views/textfinder.html',
     tag: ['button', 'input', 'skdufhskdufh']
   },
   {
     text: 'JsonFilter',
     date: 'JUNE 2018',
-    img: '/images/jsonFilter.png',
+    img: 'public/images/jsonFilter.png',
     siteUrl: 'https://sooojungee.github.io/public/views/jsonfilter.html',
     tag: ['json', 'filter', 'select', 'skdufhskdufh']
   },
   {
     text: 'calculator',
     date: 'JUNE 2018',
-    img: '/images/calculator.png',
+    img: 'public/images/calculator.png',
     siteUrl: 'https://sooojungee.github.io/public/views/calculator.html',
     tag: ['calculator', 'eval', 'math', 'skdufhskdufh']
   },
   {
     text: 'kakaotalk',
     date: 'JUNE 2018',
-    img: '/images/kakao.png',
+    img: 'public/images/kakao.png',
     siteUrl: 'https://sooojungee.github.io/public/views/kakaologin.html',
     tag: ['input', 'password', 'atag...........', 'skdufhskdufh', 'a']
   },
   {
     text: 'firebase',
     date: 'JUNE 2018',
-    img: '/images/firebase.png',
+    img: 'public/images/firebase.png',
     siteUrl: 'https://sooojungee.github.io/public/views/firebase.html',
     tag: ['animation', 'hover', 'grid', 'a']
   },
@@ -45,22 +45,15 @@ let blogCard = [
   {
     text: 'instagram',
     date: 'JUNE 2018',
-    img: '/images/instagram.png',
+    img: 'public/images/instagram.png',
     siteUrl: 'https://sooojungee.github.io/public/views/instagram.html',
     tag: ['flex-wrap', 'icon', 'grid']
   },
-  
-  {
-    text: 'instagram',
-    date: 'JUNE 2018',
-    img: '/images/instagram.png',
-    siteUrl: 'https://sooojungee.github.io/public/views/instagram.html',
-    tag: ['flex-wrap', 'icon', 'grid']
-  },
+
   {
     text: 'ajouUniv',
     date: 'JUNE 2018',
-    img: '/images/ajou.png',
+    img: 'public/images/ajou.png',
     siteUrl: 'https://sooojungee.github.io/public/views/ajou.html',
     tag: ['ajouUniv', 'grid']
   },
@@ -142,7 +135,7 @@ $input.on('keyup', () => {
   
   let val = $input.val().toLowerCase();
   
-  _.filter(elements, (e) => e.hasTag(val));
+  _.forEach(elements, (e) => e.hasTag(val));
   
   $row.imagesLoaded(function () {
     $row.masonry('layout');
